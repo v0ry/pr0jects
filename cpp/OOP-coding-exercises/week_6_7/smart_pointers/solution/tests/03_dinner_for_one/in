@@ -1,0 +1,13 @@
+sit 2
+order 2 0.33
+food 2
+eat
+drink
+eat
+drink
+eat
+drink
+eat
+drink
+leave 2
+quit
