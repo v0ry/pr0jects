@@ -1,8 +1,0 @@
-#ifndef DIVIDE_BY_ZERO_EXCEPTION_HPP
-#define DIVIDE_BY_ZERO_EXCEPTION_HPP
-
-#include <stdexcept>
-
-// TODO
-
-#endif // DIVIDE_BY_ZERO_EXCEPTION_HPP
