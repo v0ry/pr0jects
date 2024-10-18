@@ -1,0 +1,11 @@
+read_verilog -sv -lib ../common/cmos_cells.v
+read_verilog -sv stopwatch.sv
+
+synth
+dfflibmap -liberty ../common/cmos_cells.lib
+abc -liberty ../common/cmos_cells.lib
+opt_clean
+
+stat -liberty ../common/cmos_cells.lib
+
+write_verilog syn.v
