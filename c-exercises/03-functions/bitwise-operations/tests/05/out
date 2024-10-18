@@ -1,0 +1,6 @@
+Insert first number:  Insert second number: 
+Bits of first number:  1111 1111 | 1111 1111 | 1111 1111 | 1111 1111
+Bits of second number: 0000 0000 | 0000 0000 | 0000 0000 | 0000 0001
+
+Bits of result number: 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000
+An overflow occured!

@@ -1,0 +1,33 @@
+
+I1, N2, S3, E4, R5, T6, O7, P8, B9, 
+L1
+  P1:   10 Points
+  P2:    0 Points
+ |ABCDEFGHIJKLMN
+----------------
+A|             I
+B|             N
+C|             S
+D|             E
+E|             R
+F|             T
+G|       N      
+H|       O      
+I|       T      
+J|              
+K|P  S  I  L    
+L|  O  S  B  E  
+M|              
+N|              
+
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > 

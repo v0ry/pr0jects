@@ -1,0 +1,27 @@
+Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation. Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden. Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT). Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung. Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen. Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+t
+p
+s
+0
+9
+99
+1.0
+0.1
+0001
+6
+t
+3
+c
+2
+3
+c
+2
+3
+p
+c
+4
+1
+p
+t
+o
+e

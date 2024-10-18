@@ -1,0 +1,76 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments 
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file 
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "main"
+makefile_path = "."
+maketarget = "all"
+
+[[testcases]]
+name = "easy flight Graz Wien"
+testcase_type = "IO"
+args = ['01']
+exp_file = "tests/01/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "long flight without circles"
+testcase_type = "IO"
+args = ['0123456']
+exp_file = "tests/02/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "long flight with circles"
+testcase_type = "IO"
+args = ['6546543210']
+exp_file = "tests/03/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "too short"
+testcase_type = "IO"
+args = ['4']
+exp_file = "tests/04/out"
+exp_retvar = 3
+
+[[testcases]]
+name = "invalid airport id"
+testcase_type = "IO"
+args = ['010109']
+exp_file = "tests/05/out"
+exp_retvar = 2
+
+[[testcases]]
+name = "wrong parameter count"
+testcase_type = "IO"
+args = ['01010' , 'this should not work']
+exp_file = "tests/06/out"
+exp_retvar = 1
+
+[[testcases]]
+name = "very invalid airport id"
+testcase_type = "IO"
+args = ['04hellowoRld']
+exp_file = "tests/07/out"
+exp_retvar = 2
+
+[[testcases]]
+name = "very hard-working pilot"
+testcase_type = "IO"
+args = ['0545623541256425302451236542513502145214530265410250']
+exp_file = "tests/08/out"
+exp_retvar = 0

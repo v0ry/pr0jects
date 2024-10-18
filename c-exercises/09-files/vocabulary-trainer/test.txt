@@ -1,0 +1,5 @@
+heute today
+morgen tomorrow
+gestern yesterday
+Mittag midday
+Nacht night

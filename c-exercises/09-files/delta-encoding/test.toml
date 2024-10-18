@@ -1,0 +1,74 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments 
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file 
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "main"
+makefile_path = "."
+maketarget = "all"
+
+[[testcases]]
+name = "Wrong parameter count"
+testcase_type = "IO"
+in_file = "tests/01/in"
+exp_file = "tests/01/out"
+args = ["-", "c", "tests/01/abc", "tests/01/abc"]
+exp_retvar = 1
+
+[[testcases]]
+name = "Invalid option parameter"
+testcase_type = "IO"
+in_file = "tests/02/in"
+exp_file = "tests/02/out"
+args = ["-cd", "tests/02/abc", "tests/02/abc"]
+exp_retvar = 1
+
+[[testcases]]
+name = "Cannot open original file"
+testcase_type = "IO"
+in_file = "tests/03/in"
+exp_file = "tests/03/out"
+args = ["-d", "tests/03/abc", "tests/03/config" ]
+exp_retvar = 2
+
+[[testcases]]
+name = "Cannot create new file"
+testcase_type = "IO"
+in_file = "tests/04/in"
+exp_file = "tests/04/out"
+args = ["-c", "tests/04/some_folder/inside/abc", "tests/04/config.txt" ]
+exp_retvar = 3
+
+[[testcases]]
+name = "Compression"
+testcase_type = "IO"
+in_file = "tests/05/in"
+exp_file = "tests/05/out"
+add_diff_mode = "binary"
+add_out_file = "tests/05/ref_result"
+add_exp_file = "tests/05/result"
+args = ["-c", "tests/05/result", "tests/05/config.txt" ]
+exp_retvar = 0
+
+[[testcases]]
+name = "Decompression"
+testcase_type = "IO"
+in_file = "tests/06/in"
+exp_file = "tests/06/out"
+add_diff_mode = "text"
+add_out_file = "tests/06/result.txt"
+add_exp_file = "tests/06/ref_result.txt"
+args = ["-d", "tests/06/result.txt", "tests/06/config" ]
+exp_retvar = 0

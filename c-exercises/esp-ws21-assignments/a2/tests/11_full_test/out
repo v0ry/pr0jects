@@ -1,0 +1,140 @@
+Bitte Text eingeben:
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text Statistik:
+6 Sätze, 564 Zeichen
+545 Buchstaben (36 Großbuchstaben, 509 Kleinbuchstaben)
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   2 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   3 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT).
+   4 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+   5 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   6 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text Statistik:
+6 Sätze, 564 Zeichen
+545 Buchstaben (36 Großbuchstaben, 509 Kleinbuchstaben)
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   2 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+   3 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   4 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+   2 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   3 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text Statistik:
+3 Sätze, 570 Zeichen
+554 Buchstaben (36 Großbuchstaben, 518 Kleinbuchstaben)
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text:
+Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung. Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen. Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden. 
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Programmende!

@@ -1,0 +1,23 @@
+Erforderlicher Durchfluss [l/min]: Invalide Eingabe! Der Durchfluss muss mindestens 100 l/min und maximal 1200 l/min betragen.
+Erforderlicher Durchfluss [l/min]: Horizontale Distanz [m]: Vertikale Distanz [m]: 
+Ziel: (5000, 100)
+Neigung [rad]: 0.0200
+Durchfluss [l/min]: 1199
+Reibungsbeiwert [bar/m]: 0.0250
+  Pumpe1: (314.76, 6.30)
+  Pumpe2: (629.51, 12.59)
+  Pumpe3: (944.27, 18.89)
+  Pumpe4: (1259.03, 25.18)
+  Pumpe5: (1573.78, 31.48)
+  Pumpe6: (1888.54, 37.77)
+  Pumpe7: (2203.30, 44.07)
+  Pumpe8: (2518.05, 50.36)
+  Pumpe9: (2832.81, 56.66)
+  Pumpe10: (3147.57, 62.95)
+  Pumpe11: (3462.32, 69.25)
+  Pumpe12: (3777.08, 75.54)
+  Pumpe13: (4091.83, 81.84)
+  Pumpe14: (4406.59, 88.13)
+  Pumpe15: (4721.35, 94.43)
+  Pumpe16: (5000.00, 100.00)
+Austrittsdruck Zielpunkt [bar]: 10.00

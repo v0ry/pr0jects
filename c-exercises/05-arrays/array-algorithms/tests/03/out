@@ -1,0 +1,44 @@
+Length of the array: Numbers:
+Sorted Array:
+2 2 2 3 5 6 8 10 11 12 12 12 12 14 14 15 15 16 18 18 20 21 21 22 23 24 24 24 26 27 27 27 27 28 28 29 29 32 33 33 33 34 34 35 35 35 37 38 39 40
+Enter number: 1 was not found.
+Enter number: 2 was found.
+Enter number: 3 was found.
+Enter number: 4 was not found.
+Enter number: 5 was found.
+Enter number: 6 was found.
+Enter number: 7 was not found.
+Enter number: 8 was found.
+Enter number: 9 was not found.
+Enter number: 10 was found.
+Enter number: 11 was found.
+Enter number: 12 was found.
+Enter number: 13 was not found.
+Enter number: 14 was found.
+Enter number: 15 was found.
+Enter number: 16 was found.
+Enter number: 17 was not found.
+Enter number: 18 was found.
+Enter number: 19 was not found.
+Enter number: 20 was found.
+Enter number: 21 was found.
+Enter number: 22 was found.
+Enter number: 23 was found.
+Enter number: 24 was found.
+Enter number: 25 was not found.
+Enter number: 26 was found.
+Enter number: 27 was found.
+Enter number: 28 was found.
+Enter number: 29 was found.
+Enter number: 30 was not found.
+Enter number: 31 was not found.
+Enter number: 32 was found.
+Enter number: 33 was found.
+Enter number: 34 was found.
+Enter number: 35 was found.
+Enter number: 36 was not found.
+Enter number: 37 was found.
+Enter number: 38 was found.
+Enter number: 39 was found.
+Enter number: 40 was found.
+Enter number: 

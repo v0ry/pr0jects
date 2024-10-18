@@ -1,0 +1,8 @@
+Erforderlicher Durchfluss [l/min]: Invalide Eingabe! Der Durchfluss muss mindestens 100 l/min und maximal 1200 l/min betragen.
+Erforderlicher Durchfluss [l/min]: Horizontale Distanz [m]: Vertikale Distanz [m]: 
+Ziel: (100, 40)
+Neigung [rad]: 0.3805
+Durchfluss [l/min]: 450
+Reibungsbeiwert [bar/m]: 0.0050
+  Pumpe1: (100.00, 40.00)
+Austrittsdruck Zielpunkt [bar]: 10.00

@@ -1,0 +1,212 @@
+
+A1, B2, C3, D4, E5, F6, G7, H8, I9, 
+J1, K2, L3, M4, N5, O6, P7, Q8, R9, 
+S1, T2, U3, V4, W5, X6, Y7, Z1
+  P1:   20 Points
+  P2:   10 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|A                         
+B|B                         
+C|C                         
+D|D                         
+E|E                         
+F|F                         
+G|G                         
+H|H                         
+I|I                         
+J|J                         
+K|K                         
+L|L                         
+M|M                         
+N|N                         
+O|O                         
+P|P                         
+Q|Q                         
+R|R                         
+S|S                         
+T|T                         
+U|U                         
+V|V                         
+W|W                         
+X|X                         
+Y|Y                         
+Z|Z                         
+
+Player 1 > 
+A1, B2, C3, D4, E5, F6, G7, H8, I9, 
+J1, K2, L3, M4, N5, O6, P7, Q8, R9, 
+S1, T2, U3, V4, W5, X6, Y7, Z1
+  P1:  138 Points
+  P2:   10 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|ABCDEFGHIJKLMNOPQRSTUVWXYZ
+B|B                         
+C|C                         
+D|D                         
+E|E                         
+F|F                         
+G|G                         
+H|H                         
+I|I                         
+J|J                         
+K|K                         
+L|L                         
+M|M                         
+N|N                         
+O|O                         
+P|P                         
+Q|Q                         
+R|R                         
+S|S                         
+T|T                         
+U|U                         
+V|V                         
+W|W                         
+X|X                         
+Y|Y                         
+Z|Z                         
+
+Player 2 > Error: Impossible move!
+Player 2 > 
+A1, B2, C3, D4, E5, F6, G7, H8, I9, 
+J1, K2, L3, M4, N5, O6, P7, Q8, R9, 
+S1, T2, U3, V4, W5, X6, Y7, Z1
+  P1:  138 Points
+  P2:  128 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|ABCDEFGHIJKLMNOPQRSTUVWXYZ
+B|BB                        
+C|CC                        
+D|DD                        
+E|EE                        
+F|FF                        
+G|GG                        
+H|HH                        
+I|II                        
+J|JJ                        
+K|KK                        
+L|LL                        
+M|MM                        
+N|NN                        
+O|OO                        
+P|PP                        
+Q|QQ                        
+R|RR                        
+S|SS                        
+T|TT                        
+U|UU                        
+V|VV                        
+W|WW                        
+X|XX                        
+Y|YY                        
+Z|ZZ                        
+
+Player 1 > 
+A1, B2, C3, D4, E5, F6, G7, H8, I9, 
+J1, K2, L3, M4, N5, O6, P7, Q8, R9, 
+S1, T2, U3, V4, W5, X6, Y7, Z1
+  P1:  254 Points
+  P2:  128 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|ABCDEFGHIJKLMNOPQRSTUVWXYZ
+B|BBCDEFGHIJKLMNOPQRSTUVWXYZ
+C|CC                        
+D|DD                        
+E|EE                        
+F|FF                        
+G|GG                        
+H|HH                        
+I|II                        
+J|JJ                        
+K|KK                        
+L|LL                        
+M|MM                        
+N|NN                        
+O|OO                        
+P|PP                        
+Q|QQ                        
+R|RR                        
+S|SS                        
+T|TT                        
+U|UU                        
+V|VV                        
+W|WW                        
+X|XX                        
+Y|YY                        
+Z|ZZ                        
+
+Player 2 > 
+A1, B2, C3, D4, E5, F6, G7, H8, I9, 
+J1, K2, L3, M4, N5, O6, P7, Q8, R9, 
+S1, T2, U3, V4, W5, X6, Y7, Z1
+  P1:  254 Points
+  P2:  152 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|ABCDEFGHIJKLMNOPQRSTUVWXYZ
+B|BBCDEFGHIJKLMNOPQRSTUVWXYZ
+C|CC                        
+D|DD                        
+E|EE                        
+F|FF                        
+G|GG                        
+H|HH                        
+I|II                        
+J|JJ                        
+K|KK                        
+L|LL                        
+M|MM                        
+N|NN                        
+O|OO                        
+P|PP                        
+Q|QQ                        
+R|RR                        
+S|SS                        
+T|TT                        
+U|UU                        
+V|VV                        
+W|WW                        
+X|XX                        
+Y|YY                        
+Z|ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+Player 1 > 
+A1, B2, C3, D4, E5, F6, G7, H8, I9, 
+J1, K2, L3, M4, N5, O6, P7, Q8, R9, 
+S1, T2, U3, V4, W5, X6, Y7, Z1
+  P1:  277 Points
+  P2:  152 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|ABCDEFGHIJKLMNOPQRSTUVWXYZ
+B|BBCDEFGHIJKLMNOPQRSTUVWXYZ
+C|CC                       Z
+D|DD                       Z
+E|EE                       Z
+F|FF                       Z
+G|GG                       Z
+H|HH                       Z
+I|II                       Z
+J|JJ                       Z
+K|KK                       Z
+L|LL                       Z
+M|MM                       Z
+N|NN                       Z
+O|OO                       Z
+P|PP                       Z
+Q|QQ                       Z
+R|RR                       Z
+S|SS                       Z
+T|TT                       Z
+U|UU                       Z
+V|VV                       Z
+W|WW                       Z
+X|XX                       Z
+Y|YY                       Z
+Z|ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+Player 2 > 

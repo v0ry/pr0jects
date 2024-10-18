@@ -1,0 +1,150 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments 
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file 
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "main"
+makefile_path = "."
+maketarget = "all"
+
+
+
+[[testcases]]
+name = "negative_input_first"
+testcase_type = "IO"
+description = "tries first an negative input, before making a valid input"
+in_file = "tests/02_negative_input_first/in"
+exp_file = "tests/02_negative_input_first/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "beneath_marginal_wages_threshold"
+testcase_type = "IO"
+description = "input brutto is below the marginal wages treshold"
+in_file = "tests/01_beneath_marginal_wages_threshold/in"
+exp_file = "tests/01_beneath_marginal_wages_threshold/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "salary_of_a_slave"
+testcase_type = "IO"
+description = "tries to make zero as input"
+in_file = "tests/03_salary_of_a_slave/in"
+exp_file = "tests/03_salary_of_a_slave/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "above_max_contribution_basis"
+testcase_type = "IO"
+description = "input is higher than the maximum contribution basis"
+in_file = "tests/04_above_max_contribution_basis/in"
+exp_file = "tests/04_above_max_contribution_basis/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "above_marginal_wages_threshold"
+testcase_type = "IO"
+description = "input is above the marginal wages threshold"
+in_file = "tests/05_above_marginal_wages_threshold/in"
+exp_file = "tests/05_above_marginal_wages_threshold/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance_but_no_taxes"
+testcase_type = "IO"
+description = "has to pay the insurance fees but no taxes"
+in_file = "tests/06_insurance_but_no_taxes/in"
+exp_file = "tests/06_insurance_but_no_taxes/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance2_upper_boundary"
+testcase_type = "IO"
+description = "input is the upper boundary of the second class of the insurance fees"
+in_file = "tests/07_insurance2_upper_boundary/in"
+exp_file = "tests/07_insurance2_upper_boundary/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance3_no_kids"
+testcase_type = "IO"
+description = "input is in the third class of the insurance fees and there is no kid bonus"
+in_file = "tests/08_insurance3_no_kids/in"
+exp_file = "tests/08_insurance3_no_kids/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance3_kids"
+testcase_type = "IO"
+description = "input is in the third class of the insurance fees and there is a kid bonus to consider"
+in_file = "tests/09_insurance3_kids/in"
+exp_file = "tests/09_insurance3_kids/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance4_lower_boundary"
+testcase_type = "IO"
+description = "input at in the lower boundary of the fourth class of the insurance fees"
+in_file = "tests/10_insurance4_lower_boundary/in"
+exp_file = "tests/10_insurance4_lower_boundary/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance4_upper_boundary"
+testcase_type = "IO"
+description = "input at in the upper boundary of the fourth class of the insurance fees"
+in_file = "tests/11_insurance4_upper_boundary/in"
+exp_file = "tests/11_insurance4_upper_boundary/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insurance5"
+testcase_type = "IO"
+description = "input is in the fifth class of the insurance fees"
+in_file = "tests/12_insurance5/in"
+exp_file = "tests/12_insurance5/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "at_max_contribution_basis"
+testcase_type = "IO"
+description = "input is exactly the max contribution basis"
+in_file = "tests/13_at_max_contribution_basis/in"
+exp_file = "tests/13_at_max_contribution_basis/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "highest_tax_class"
+testcase_type = "IO"
+description = "input is so that the income is in the highest tax class"
+in_file = "tests/14_highest_tax_class/in"
+exp_file = "tests/14_highest_tax_class/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "far_too_rich"
+testcase_type = "IO"
+description = "tries first inputs above 5 million and than 5 milion"
+in_file = "tests/15_far_too_rich/in"
+exp_file = "tests/15_far_too_rich/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "false_char_inputs"
+testcase_type = "IO"
+description = "tries as input for kids some other characters first"
+in_file = "tests/16_false_char_inputs/in"
+exp_file = "tests/16_false_char_inputs/out"
+exp_retvar = 0

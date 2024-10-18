@@ -1,0 +1,182 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments 
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file 
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "main"
+makefile_path = "."
+maketarget = "all"
+
+
+
+[[testcases]]
+name = "simple_statistics"
+testcase_type = "IO"
+description = "print statistics of a simple text"
+in_file = "tests/01_simple_statistics/in"
+exp_file = "tests/01_simple_statistics/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "bring_in_order"
+testcase_type = "IO"
+description = "can your program bring this input text in its right order?"
+in_file = "tests/02_bring_in_order/in"
+exp_file = "tests/02_bring_in_order/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "statistics_and_reordering"
+testcase_type = "IO"
+description = "print statistics after shuffling with sentences"
+in_file = "tests/03_statistics_and_reordering/in"
+exp_file = "tests/03_statistics_and_reordering/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "no_text"
+testcase_type = "IO"
+description = "there is no sentence"
+in_file = "tests/04_no_text/in"
+exp_file = "tests/04_no_text/out"
+exp_retvar = 1
+
+[[testcases]]
+name = "missing_punctuation"
+testcase_type = "IO"
+description = "missing punctuation"
+in_file = "tests/05_missing_punctuation/in"
+exp_file = "tests/05_missing_punctuation/out"
+exp_retvar = 2
+
+[[testcases]]
+name = "missing_punctuation_2"
+testcase_type = "IO"
+description = "missing punctuation"
+in_file = "tests/06_missing_punctuation_2/in"
+exp_file = "tests/06_missing_punctuation_2/out"
+exp_retvar = 2
+
+[[testcases]]
+name = "yes_this_is_valid"
+testcase_type = "IO"
+description = "valid sentences"
+in_file = "tests/07_yes_this_is_valid/in"
+exp_file = "tests/07_yes_this_is_valid/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "shuffle_and_concat"
+testcase_type = "IO"
+description = "shuffling and concatenating"
+in_file = "tests/08_shuffle_and_concat/in"
+exp_file = "tests/08_shuffle_and_concat/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "different_chars"
+testcase_type = "IO"
+description = "try inputting different ASCII characters"
+in_file = "tests/09_different_chars/in"
+exp_file = "tests/09_different_chars/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "missing_concat_parameter"
+testcase_type = "IO"
+description = "missing parameters for concat"
+in_file = "tests/10_missing_concat_parameter/in"
+exp_file = "tests/10_missing_concat_parameter/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "full_test"
+testcase_type = "IO"
+description = "full test"
+in_file = "tests/11_full_test/in"
+exp_file = "tests/11_full_test/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "full_test_3"
+testcase_type = "IO"
+description = "full test ^2"
+in_file = "tests/12_full_test_3/in"
+exp_file = "tests/12_full_test_3/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "example_text"
+testcase_type = "IO"
+description = "text example from assignment sheet"
+in_file = "tests/13_example_text/in"
+exp_file = "tests/13_example_text/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "no_valid_sentences"
+testcase_type = "IO"
+description = "sentences are not valid!"
+in_file = "tests/14_no_valid_sentences/in"
+exp_file = "tests/14_no_valid_sentences/out"
+exp_retvar = 1
+
+[[testcases]]
+name = "statistics_on_different_chars"
+testcase_type = "IO"
+description = "statistics on different ASCII chars"
+in_file = "tests/15_statistics_on_different_chars/in"
+exp_file = "tests/15_statistics_on_different_chars/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "full_test_2"
+testcase_type = "IO"
+description = "full test"
+in_file = "tests/16_full_test_2/in"
+exp_file = "tests/16_full_test_2/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "full_test_4"
+testcase_type = "IO"
+description = "full test ^2"
+in_file = "tests/17_full_test_4/in"
+exp_file = "tests/17_full_test_4/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "wrong_inputs"
+testcase_type = "IO"
+description = "inputs not valid"
+in_file = "tests/18_wrong_inputs/in"
+exp_file = "tests/18_wrong_inputs/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "simple_reorder"
+testcase_type = "IO"
+description = "simple reordering"
+in_file = "tests/19_simple_reorder/in"
+exp_file = "tests/19_simple_reorder/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "simple_concat"
+testcase_type = "IO"
+description = "simple concatenating"
+in_file = "tests/20_simple_concat/in"
+exp_file = "tests/20_simple_concat/out"
+exp_retvar = 0

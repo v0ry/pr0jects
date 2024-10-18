@@ -1,0 +1,208 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "main"
+makefile_path = "."
+maketarget = "all"
+
+
+[[testcases]]
+name = "readme sample"
+testcase_type = "IO"
+description = "sample from the README"
+args = ["config/config_01.txt"]
+in_file = "tests/01_readme_sample/in"
+exp_file = "tests/01_readme_sample/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "wrong magic"
+testcase_type = "IO"
+description = "wrong magic number"
+args = ["config/config_02.txt"]
+exp_file = "tests/02_wrong_magic/out"
+exp_retvar = 3
+
+[[testcases]]
+name = "wrong magic2"
+testcase_type = "IO"
+description = "wrong magic number"
+args = ["config/config_03.txt"]
+exp_file = "tests/03_wrong_magic2/out"
+exp_retvar = 3
+
+[[testcases]]
+name = "wrong magic3"
+testcase_type = "IO"
+description = "wrong magic number"
+args = ["config/config_04.txt"]
+exp_file = "tests/04_wrong_magic3/out"
+exp_retvar = 3
+
+[[testcases]]
+name = "wrong argc"
+testcase_type = "IO"
+description = "wrong argument count"
+args = [""]
+exp_file = "tests/05_wrong_start_argc/out"
+exp_retvar = 1
+
+[[testcases]]
+name = "wrong argc2"
+testcase_type = "IO"
+description = "wrong argument count"
+args = ["to ", "much", " dude"]
+exp_file = "tests/06_wrong_start_argc2/out"
+exp_retvar = 1
+
+[[testcases]]
+name = "no file"
+testcase_type = "IO"
+description = "file cannot open"
+args = ["nothere.txt"]
+exp_file = "tests/07_no_file/out"
+exp_retvar = 2
+
+[[testcases]]
+name = "just quit"
+testcase_type = "IO"
+description = "supercomplex testcase"
+args = ["config/config_08.txt"]
+in_file = "tests/08_quit/in"
+exp_file = "tests/08_quit/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "just help"
+testcase_type = "IO"
+description = "read the manpage"
+args = ["config/config_09.txt"]
+in_file = "tests/09_help/in"
+exp_file = "tests/09_help/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "open small board"
+testcase_type = "IO"
+description = "open 4x4 board"
+args = ["config/config_10.txt"]
+in_file = "tests/10_4x4/in"
+exp_file = "tests/10_4x4/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "open big board"
+testcase_type = "IO"
+description = "open 26x26 board"
+args = ["config/config_11.txt"]
+in_file = "tests/11_26x26/in"
+exp_file = "tests/11_26x26/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "unknown commands"
+testcase_type = "IO"
+description = "some unknown commands"
+args = ["config/config_12.txt"]
+in_file = "tests/12_unknown/in"
+exp_file = "tests/12_unknown/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "insert invalid"
+testcase_type = "IO"
+description = "instert no falid"
+args = ["config/config_13.txt"]
+in_file = "tests/13_invalid/in"
+exp_file = "tests/13_invalid/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "impossible move"
+testcase_type = "IO"
+description = "inserts not possible"
+args = ["config/config_14.txt"]
+in_file = "tests/14_impossible/in"
+exp_file = "tests/14_impossible/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "empty start"
+testcase_type = "IO"
+description = "play with empty board"
+args = ["config/config_15.txt"]
+in_file = "tests/15_empty/in"
+exp_file = "tests/15_empty/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "p2 wins"
+testcase_type = "IO"
+description = "player 2 wins"
+args = ["config/config_16.txt"]
+in_file = "tests/16_p2win/in"
+exp_file = "tests/16_p2win/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "p1 wins"
+testcase_type = "IO"
+description = "player 1 wins"
+args = ["config/config_17.txt"]
+in_file = "tests/17_p1win/in"
+exp_file = "tests/17_p1win/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "all letter"
+testcase_type = "IO"
+description = "all letters available"
+args = ["config/config_18.txt"]
+in_file = "tests/18_all_letter/in"
+exp_file = "tests/18_all_letter/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "save"
+testcase_type = "IO"
+description = "save configfile"
+args = ["config/config_19_origin.txt"]
+in_file = "tests/19_save/in"
+exp_file = "tests/19_save/out"
+exp_retvar = 0
+add_out_file = "config/config_19_origin.txt"
+add_exp_file = "config/config_19_saved.txt"
+
+[[testcases]]
+name = "mix"
+testcase_type = "IO"
+description = "longer gameplay, different comands"
+args = ["config/config_20_origin.txt"]
+in_file = "tests/20_mix/in"
+exp_file = "tests/20_mix/out"
+exp_retvar = 0
+add_out_file = "config/config_20_origin.txt"
+add_exp_file = "config/config_20_saved.txt"
+
+[[testcases]]
+name = "BONUS"
+testcase_type = "IO"
+description = "bonus load"
+args = ["config/config_21_1.txt"]
+in_file = "tests/21_bonus/in"
+exp_file = "tests/21_bonus/out"
+exp_retvar = 2

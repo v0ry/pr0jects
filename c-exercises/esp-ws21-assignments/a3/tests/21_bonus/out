@@ -1,0 +1,159 @@
+
+B1, T2, E1, S2, L2, A1, D2, F2, I1, 
+U1, K2, Q3
+  P1:    0 Points
+  P2:    7 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|               
+C|               
+D|               
+E|               
+F|               
+G|    S          
+H|    A          
+I|    L          
+J|    T          
+K|               
+L|               
+M|               
+N|               
+O|               
+
+Player 1 > 
+S1, M1, A2, L2
+  P1:    1 Points
+  P2:    1 Points
+ |ABCD
+------
+A|S   
+B| M  
+C|  A 
+D|   L
+
+Player 2 > 
+S1, M1, A2, L2
+  P1:    1 Points
+  P2:    4 Points
+ |ABCD
+------
+A|SAM 
+B| M  
+C|  A 
+D|   L
+
+Player 1 > 
+B2, I1, G2, E1, R2, T3, H2, W3, O1, 
+L2, A3, D4
+  P1:    5 Points
+  P2:    3 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|B                         
+B| I                        
+C|  G                       
+D|                          
+E|                          
+F|    B                     
+G|     I                    
+H|      G                   
+I|       G                  
+J|        E                 
+K|         R                
+L|                          
+M|                          
+N|           T              
+O|            H             
+P|             E            
+Q|                          
+R|                          
+S|               W          
+T|                H         
+U|                 O        
+V|                  L       
+W|                   E      
+X|                          
+Y|                          
+Z|                     BOARD
+
+Player 1 > 
+B2, I1, G2, E1, R2, T3, H2, W3, O1, 
+L2, A3, D4
+  P1:   11 Points
+  P2:    3 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|B                         
+B| I                        
+C|  G                       
+D|                          
+E|                          
+F|    B                     
+G|     I                    
+H|      G                   
+I|       G                  
+J|        E                 
+K|         R                
+L|         E                
+M|         A                
+N|         L T              
+O|            H             
+P|             E            
+Q|                          
+R|                          
+S|               W          
+T|                H         
+U|                 O        
+V|                  L       
+W|                   E      
+X|                          
+Y|                          
+Z|                     BOARD
+
+Player 2 > 
+B2, I1, G2, E1, R2, T3, H2, W3, O1, 
+L2, A3, D4
+  P1:    5 Points
+  P2:    3 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|B                         
+B| I                        
+C|  G                       
+D|                          
+E|                          
+F|    B                     
+G|     I                    
+H|      G                   
+I|       G                  
+J|        E                 
+K|         R                
+L|                          
+M|                          
+N|           T              
+O|            H             
+P|             E            
+Q|                          
+R|                          
+S|               W          
+T|                H         
+U|                 O        
+V|                  L       
+W|                   E      
+X|                          
+Y|                          
+Z|                     BOARD
+
+Player 1 > 
+S1, M1, A2, L2
+  P1:    1 Points
+  P2:    1 Points
+ |ABCD
+------
+A|S   
+B| M  
+C|  A 
+D|   L
+
+Player 2 > Error: Cannot open file: nopoints

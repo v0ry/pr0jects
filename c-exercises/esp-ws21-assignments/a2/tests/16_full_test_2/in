@@ -1,0 +1,31 @@
+Das P-NP-Problem ist ein ungeloestes Problem der Mathematik, speziell der Komplexitaetstheorie in der theoretischen Informatik. Dabei ist die Frage, ob die Menge aller Probleme, die schnell loesbar sind und die Menge aller Probleme, bei der man eine vorgeschlagene Loesung schnell auf Korrektheit ueberpruefen kann, identisch sind. Es ist zwar klar, dass man bei allen schnell loesbaren Problemen auch schnell die Korrektheit einer Loesung ueberpruefen kann, in der umgekehrten Richtung ist dies jedoch nicht klar: Fuer manche Probleme existiert zwar ein Algorithmus, der eine vorgeschlagene Loesung schnell ueberpruefen kann, aber es konnte weder ein Algorithmus gefunden werden, der auch schnell eine korrekte Loesung findet, noch konnte die Unmoeglichkeit eines solchen Algorithmus bewiesen werden. Somit ist die Fragestellung ungeloest. Wuerde man fuer alle schnell pruefbaren Probleme einen Algorithmus finden, der diese auch schnell loest, so gaelte P=NP. Koennte fuer mindestens ein Problem aus NP gezeigt werden, dass dieses prinzipiell nicht schnell loesbar ist, waere P\neq NP bewiesen.
+t
+p
+     s
+s
+2
+3
+p
+c
+2
+3
+p
+t
+s
+3
+5
+p
+c
+4
+5
+s
+1
+5
+4
+p
+c
+4
+2
+p
+t
+e

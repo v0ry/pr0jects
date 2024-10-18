@@ -1,0 +1,4 @@
+Real of a: Imag of a: Real of b: Imag of b: c = a + b = 0.00 + 35.00i
+c += a = 0.00 + 52.00i
+c += ~b = 0.00 + 34.00i
+c = c * ~c = 1156.00 + 0.00i

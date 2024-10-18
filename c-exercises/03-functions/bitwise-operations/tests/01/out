@@ -1,0 +1,6 @@
+Insert first number:  Insert second number: 
+Bits of first number:  1010 1010 | 1010 1010 | 1010 1010 | 1010 1010
+Bits of second number: 0101 0101 | 0101 0101 | 0101 0101 | 0101 0101
+
+Bits of result number: 1111 1111 | 1111 1111 | 1111 1111 | 1111 1111
+Decimal value of the result number: 4294967295

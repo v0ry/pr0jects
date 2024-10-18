@@ -1,0 +1,30 @@
+Bitte Schlüssel eingeben: Ausgewählter Schlüssel: HALOVET
+
+Playfair Quadrat:
+H J A K L
+M O N V P
+E Q T R B
+S C U D X
+F Y G Z I
+
+Wählen Sie bitte eine Option:
+1 - Verschlüsseln
+2 - Entschlüsseln
+0 - Programm beenden
+
+Klartext: Vorbereiteter Klartext: PR OG RA MX MI ER EN MA CH TS PA SX SX
+Ciphertext: VB NY TK PS PF QB TM NH SJ EU NL CS CS
+
+Wählen Sie bitte eine Option:
+1 - Verschlüsseln
+2 - Entschlüsseln
+0 - Programm beenden
+
+Ciphertext: Vorbereiteter Ciphertext: VB NY TK PS PF QB TM NH SJ EU NL CS CS
+Klartext: PR OG RA MX MI ER EN MA CH TS PA SX SX
+
+Wählen Sie bitte eine Option:
+1 - Verschlüsseln
+2 - Entschlüsseln
+0 - Programm beenden
+

@@ -1,0 +1,7 @@
+insert a a h abcdefghijklmnopqrstuvwxyz
+insert a b v abcdefghijklmnopqrstuvwxyz
+insert a b v bbcdefghijklmnopqrstuvwxyz
+insert b a h bbcdefghijklmnopqrstuvwxyz
+insert z a h zzzzzzzzzzzzzzzzzzzzzzzzzz
+insert a z v zzzzzzzzzzzzzzzzzzzzzzzzzz
+quit

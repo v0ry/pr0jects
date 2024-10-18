@@ -1,0 +1,7 @@
+insert
+insert 1 2 3
+insert 0 1 2 3
+insert a a a a
+insert a a h
+insert a b word
+quit

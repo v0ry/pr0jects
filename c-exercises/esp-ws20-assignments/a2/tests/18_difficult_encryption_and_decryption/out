@@ -1,0 +1,30 @@
+Bitte Schlüssel eingeben: Bitte Schlüssel eingeben: Ausgewählter Schlüssel: LONGKEYVITH
+
+Playfair Quadrat:
+L C O D N
+F G J K M
+E P Y Q V
+R I S T U
+H X A Z B
+
+Wählen Sie bitte eine Option:
+1 - Verschlüsseln
+2 - Entschlüsseln
+0 - Programm beenden
+
+Klartext: Klartext: Klartext: Vorbereiteter Klartext: TH IS IS AL ON GE XA MP LE TE XT TO EN CR YP TX
+Ciphertext: RZ ST ST HO DL FP AZ GV FR RQ ZI SD VL LI QY IZ
+
+Wählen Sie bitte eine Option:
+1 - Verschlüsseln
+2 - Entschlüsseln
+0 - Programm beenden
+
+Ciphertext: Ciphertext: Vorbereiteter Ciphertext: RZ ST ST HO DL FP AZ GV FR RQ ZI SD VL LI QY IZ
+Klartext: TH IS IS AL ON GE XA MP LE TE XT TO EN CR YP TX
+
+Wählen Sie bitte eine Option:
+1 - Verschlüsseln
+2 - Entschlüsseln
+0 - Programm beenden
+

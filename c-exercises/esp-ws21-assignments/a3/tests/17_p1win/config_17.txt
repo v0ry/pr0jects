@@ -1,0 +1,14 @@
+Scrabble
+        O
+PLAYER  N
+        E
+IS       
+         
+THE      
+         
+WINNER   
+         
+1
+28
+14
+p2 l2 a2 y2 e2 r2 t2 i2 s2 h2 w2 n2 g2 o2 b2 u2 c2 d2

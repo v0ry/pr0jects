@@ -1,0 +1,13 @@
+rotate top 2 1
+rotate right 6 7
+rotate left 6 7
+rotate right 7 2
+rotate left 7 2
+rotate right 10 2
+rotate left 2 -1
+rotate right 3 2
+rotate left 5 6
+rotate right 1 5
+rotate left 6 3
+rotate right 2 2
+USR

@@ -1,0 +1,203 @@
+How many students are in class? Enter 1st name: Enter 2nd name: Enter 3rd name: Enter 4th name: Enter 5th name: Enter 6th name: Enter 7th name: Enter 8th name: Enter 9th name: Enter 10th name: Enter 11th name: Enter 12th name: Enter 13th name: Enter 14th name: Enter 15th name: Enter 16th name: Enter 17th name: Enter 18th name: Enter 19th name: Enter 20th name: Enter 21th name: Enter 22th name: Enter 23th name: Enter 24th name: Enter 25th name: Enter 26th name: Enter 27th name: Enter 28th name: Enter 29th name: Enter 30th name: Enter 31th name: Enter 32th name: Enter 33th name: Enter 34th name: Enter 35th name: Enter 36th name: Enter 37th name: Enter 38th name: Enter 39th name: Enter 40th name: Enter 41th name: Enter 42th name: Enter 43th name: Enter 44th name: Enter 45th name: Enter 46th name: Enter 47th name: Enter 48th name: Enter 49th name: Enter 50th name: Enter 51th name: Enter 52th name: Enter 53th name: Enter 54th name: Enter 55th name: Enter 56th name: Enter 57th name: Enter 58th name: Enter 59th name: Enter 60th name: Enter 61th name: Enter 62th name: Enter 63th name: Enter 64th name: Enter 65th name: Enter 66th name: Enter 67th name: Enter 68th name: Enter 69th name: Enter 70th name: Enter 71th name: Enter 72th name: Enter 73th name: Enter 74th name: Enter 75th name: Enter 76th name: Enter 77th name: Enter 78th name: Enter 79th name: Enter 80th name: Enter 81th name: Enter 82th name: Enter 83th name: Enter 84th name: Enter 85th name: Enter 86th name: Enter 87th name: Enter 88th name: Enter 89th name: Enter 90th name: Enter 91th name: Enter 92th name: Enter 93th name: Enter 94th name: Enter 95th name: Enter 96th name: Enter 97th name: Enter 98th name: Enter 99th name: Enter 100th name: Enter 101th name: Enter 102th name: Enter 103th name: Enter 104th name: Enter 105th name: Enter 106th name: Enter 107th name: Enter 108th name: Enter 109th name: Enter 110th name: Enter 111th name: Enter 112th name: Enter 113th name: Enter 114th name: Enter 115th name: Enter 116th name: Enter 117th name: Enter 118th name: Enter 119th name: Enter 120th name: Enter 121th name: Enter 122th name: Enter 123th name: Enter 124th name: Enter 125th name: Enter 126th name: Enter 127th name: Enter 128th name: Enter 129th name: Enter 130th name: Enter 131th name: Enter 132th name: Enter 133th name: Enter 134th name: Enter 135th name: Enter 136th name: Enter 137th name: Enter 138th name: Enter 139th name: Enter 140th name: Enter 141th name: Enter 142th name: Enter 143th name: Enter 144th name: Enter 145th name: Enter 146th name: Enter 147th name: Enter 148th name: Enter 149th name: Enter 150th name: Enter 151th name: Enter 152th name: Enter 153th name: Enter 154th name: Enter 155th name: Enter 156th name: Enter 157th name: Enter 158th name: Enter 159th name: Enter 160th name: Enter 161th name: Enter 162th name: Enter 163th name: Enter 164th name: Enter 165th name: Enter 166th name: Enter 167th name: Enter 168th name: Enter 169th name: Enter 170th name: Enter 171th name: Enter 172th name: Enter 173th name: Enter 174th name: Enter 175th name: Enter 176th name: Enter 177th name: Enter 178th name: Enter 179th name: Enter 180th name: Enter 181th name: Enter 182th name: Enter 183th name: Enter 184th name: Enter 185th name: Enter 186th name: Enter 187th name: Enter 188th name: Enter 189th name: Enter 190th name: Enter 191th name: Enter 192th name: Enter 193th name: Enter 194th name: Enter 195th name: Enter 196th name: Enter 197th name: Enter 198th name: Enter 199th name: Enter 200th name: Student list:
+----------------------------------------
+|  1: Fiona                            |
+|  2: Falko                            |
+|  3: Felina                           |
+|  4: Fatih                            |
+|  5: Felicitas                        |
+|  6: Fynn                             |
+|  7: Fabia                            |
+|  8: Flavio                           |
+|  9: Fabiola                          |
+| 10: Fady                             |
+| 11: Fabrizia                         |
+| 12: Fritz                            |
+| 13: Filomae                          |
+| 14: Falko                            |
+| 15: Floris                           |
+| 16: Gabriel                          |
+| 17: Fae                              |
+| 18: Gustav                           |
+| 19: Fanny                            |
+| 20: Guiseppe                         |
+| 21: Fritzi                           |
+| 22: Guenter                          |
+| 23: Greta                            |
+| 24: Gerhard                          |
+| 25: Gabrielle                        |
+| 26: Georg                            |
+| 27: Grit                             |
+| 28: Gel                              |
+| 29: Gwen                             |
+| 30: Gerald                           |
+| 31: Gabi                             |
+| 32: Geoffrey                         |
+| 33: Gila                             |
+| 34: Gismund                          |
+| 35: Giorgina                         |
+| 36: Giulio                           |
+| 37: Gisele                           |
+| 38: Godo                             |
+| 39: Heike                            |
+| 40: Henri                            |
+| 41: Hanna                            |
+| 42: Hannes                           |
+| 43: Helena                           |
+| 44: Henry                            |
+| 45: Haima                            |
+| 46: Henrik                           |
+| 47: Heike                            |
+| 48: Hendrik                          |
+| 49: Nadja                            |
+| 50: Marlon                           |
+| 51: Nadine                           |
+| 52: Mark                             |
+| 53: Nele                             |
+| 54: Matti                            |
+| 55: Nora                             |
+| 56: Martin                           |
+| 57: Nina                             |
+| 58: Morris                           |
+| 59: Nada                             |
+| 60: Miran                            |
+| 61: Nadeshda                         |
+| 62: Miro                             |
+| 63: Nancy                            |
+| 64: Niklas                           |
+| 65: Nova                             |
+| 66: Nika                             |
+| 67: Niko                             |
+| 68: Nike                             |
+| 69: Nabil                            |
+| 70: Oda                              |
+| 71: Noel                             |
+| 72: Odilie                           |
+| 73: Nils                             |
+| 74: Okka                             |
+| 75: Nick                             |
+| 76: Olea                             |
+| 77: Neo                              |
+| 78: Odett                            |
+| 79: Nadeem                           |
+| 80: Olivia                           |
+| 81: Namo                             |
+| 82: Odilia                           |
+| 83: Nepomuk                          |
+| 84: Oana                             |
+| 85: Oscar                            |
+| 86: Pia                              |
+| 87: Ole                              |
+| 88: Paula                            |
+| 89: Oliver                           |
+| 90: Phlomena                         |
+| 91: Olivier                          |
+| 92: Paloma                           |
+| 93: Onur                             |
+| 94: Paris                            |
+| 95: Owen                             |
+| 96: Paola                            |
+| 97: Obbo                             |
+| 98: Poppy                            |
+| 99: Idil                             |
+|100: Panja                            |
+|101: Otto                             |
+|102: Pardis                           |
+|103: Oswald                           |
+|104: Quirine                          |
+|105: Paul                             |
+|106: Quinta                           |
+|107: Phil                             |
+|108: Qara                             |
+|109: Patrick                          |
+|110: Ria                              |
+|111: Paavo                            |
+|112: Rita                             |
+|113: Pamir                            |
+|114: Raina                            |
+|115: Pascal                           |
+|116: Rabea                            |
+|117: Peter                            |
+|118: Radost                           |
+|119: Quinn                            |
+|120: Rabi                             |
+|121: Quazim                           |
+|122: Ronina                           |
+|123: Kasimir                          |
+|124: Rae                              |
+|125: Rene                             |
+|126: Radia                            |
+|127: Riko                             |
+|128: Selma                            |
+|129: Peter                            |
+|130: Edda                             |
+|131: Quirin                           |
+|132: Flora                            |
+|133: Liam                             |
+|134: Berenike                         |
+|135: Linus                            |
+|136: Simone                           |
+|137: Quentin                          |
+|138: Elena                            |
+|139: Paul                             |
+|140: Meike                            |
+|141: Johannes                         |
+|142: Susanne                          |
+|143: Alexander                        |
+|144: Annika                           |
+|145: Anton                            |
+|146: Augusta                          |
+|147: Aras                             |
+|148: Alba                             |
+|149: Asis                             |
+|150: Wilma                            |
+|151: Adrian                           |
+|152: Annegret                         |
+|153: Arthur                           |
+|154: Aglaia                           |
+|155: Adam                             |
+|156: Aaliyah                          |
+|157: Arian                            |
+|158: Annabelle                        |
+|159: Amos                             |
+|160: Alma                             |
+|161: Arik                             |
+|162: Alicia                           |
+|163: Ake                              |
+|164: Anette                           |
+|165: Altfried                         |
+|166: Astrid                           |
+|167: Ari                              |
+|168: Anisha                           |
+|169: Andreas                          |
+|170: Antke                            |
+|171: Allessandro                      |
+|172: Abigail                          |
+|173: Achim                            |
+|174: Aideen                           |
+|175: Ben                              |
+|176: Aini                             |
+|177: Bela                             |
+|178: Aida                             |
+|179: Baldur                           |
+|180: Aamenah                          |
+|181: Benedikt                         |
+|182: Ariane                           |
+|183: Beat                             |
+|184: Adriana                          |
+|185: Bernd                            |
+|186: Alexandra                        |
+|187: Bertram                          |
+|188: Ava                              |
+|189: Blue                             |
+|190: Arielle                          |
+|191: Badi                             |
+|192: Allissa                          |
+|193: Batiste                          |
+|194: Aamu                             |
+|195: Bastian                          |
+|196: Arzu                             |
+|197: Caleb                            |
+|198: Anouk                            |
+|199: Caspar                           |
+|200: David                            |
+----------------------------------------

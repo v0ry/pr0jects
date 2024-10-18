@@ -1,0 +1,150 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments 
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file 
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "main"
+makefile_path = "."
+maketarget = "all"
+
+
+
+[[testcases]]
+name = "too_low_flow"
+testcase_type = "IO"
+description = "tries flows below the threshold"
+in_file = "tests/01_too_low_flow/in"
+exp_file = "tests/01_too_low_flow/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "negative_vertical"
+testcase_type = "IO"
+description = "negative input for vertical distance"
+in_file = "tests/02_negative_vertical/in"
+exp_file = "tests/02_negative_vertical/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "zero_distance"
+testcase_type = "IO"
+description = "tries to make zero as input"
+in_file = "tests/03_zero_distance/in"
+exp_file = "tests/03_zero_distance/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "from_Graz_to_Vienna"
+testcase_type = "IO"
+description = "input corresponds to the distance from Graz to Vienna"
+in_file = "tests/04_from_Graz_to_Vienna/in"
+exp_file = "tests/04_from_Graz_to_Vienna/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "extinguishing_water_for_local_areas"
+testcase_type = "IO"
+description = "input is according to official standards"
+in_file = "tests/05_extinguishing_water_for_local_areas/in"
+exp_file = "tests/05_extinguishing_water_for_local_areas/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "rough_ground_rough_numbers"
+testcase_type = "IO"
+description = "correct display of decimal places"
+in_file = "tests/06_rough_ground_rough_numbers/in"
+exp_file = "tests/06_rough_ground_rough_numbers/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "exact_values_required"
+testcase_type = "IO"
+description = "correct display of decimal places continued"
+in_file = "tests/07_exact_values_required/in"
+exp_file = "tests/07_exact_values_required/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "no_need_for_pumps"
+testcase_type = "IO"
+description = "no pumps are needed for this constellation"
+in_file = "tests/08_no_need_for_pumps/in"
+exp_file = "tests/08_no_need_for_pumps/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "too_high_flow"
+testcase_type = "IO"
+description = "try inputting flow way beyond the upper threshold"
+in_file = "tests/09_too_high_flow/in"
+exp_file = "tests/09_too_high_flow/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "negative_flow"
+testcase_type = "IO"
+description = "first try inputting negative flow"
+in_file = "tests/10_negative_flow/in"
+exp_file = "tests/10_negative_flow/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "large_distances_to_cover"
+testcase_type = "IO"
+description = "a lot of pumps will probably be needed for this"
+in_file = "tests/11_large_distances_to_cover/in"
+exp_file = "tests/11_large_distances_to_cover/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "exact_values_required_2"
+testcase_type = "IO"
+description = "correct display of decimal places is important"
+in_file = "tests/12_exact_values_required_2/in"
+exp_file = "tests/12_exact_values_required_2/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "almost_no_friction"
+testcase_type = "IO"
+description = "first entry in the friction loss scala"
+in_file = "tests/13_almost_no_friction/in"
+exp_file = "tests/13_almost_no_friction/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "almost_no_friction_2"
+testcase_type = "IO"
+description = "second entry in the friction loss scala"
+in_file = "tests/14_almost_no_friction_2/in"
+exp_file = "tests/14_almost_no_friction_2/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "almost_no_friction_3"
+testcase_type = "IO"
+description = "third entry in the friction loss scala"
+in_file = "tests/15_almost_no_friction_3/in"
+exp_file = "tests/15_almost_no_friction_3/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "high_friction_loss"
+testcase_type = "IO"
+description = "second to last entry in the friction loss scala"
+in_file = "tests/16_high_friction_loss/in"
+exp_file = "tests/16_high_friction_loss/out"
+exp_retvar = 0

@@ -1,0 +1,7 @@
+load config/config_21_2.txt
+insert a a h sam
+load config/config_21_3.txt
+insert k j v real
+load config/config_21_3.txt
+load config/config_21_2.txt
+load nopoints

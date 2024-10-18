@@ -1,0 +1,19 @@
+Scrabble
+             I
+             N
+             S
+             E
+             R
+             T
+       N      
+       O      
+       T      
+V             
+A             
+L             
+I             
+D             
+2
+7
+3
+i1 n2 s3 e4 r5 t6 o7 v8 a9 l1 d2

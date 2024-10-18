@@ -1,0 +1,54 @@
+Bitte Text eingeben:
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Ich bin 1 Satz!
+   2 | Hier ist ein 2 Satz?
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nur noch ein Satz vorhanden!
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text:
+Hier ist ein 2 Satz und Ich bin 1 Satz! 
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Programmende!

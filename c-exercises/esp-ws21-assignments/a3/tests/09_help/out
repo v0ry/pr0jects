@@ -1,0 +1,39 @@
+
+B1, T2, E1, S2, L2, A1, D2, F2, I1, 
+U1, K2, Q3
+  P1:    0 Points
+  P2:    7 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|               
+C|               
+D|               
+E|               
+F|               
+G|    S          
+H|    A          
+I|    L          
+J|    T          
+K|               
+L|               
+M|               
+N|               
+O|               
+
+Player 1 > Commands:
+ - insert <ROW> <COLUMN> <H/V> <WORD>
+    <H/V> stands for H: horizontal, V: vertical.
+
+ - help
+    Prints this help text.
+
+ - quit
+    Terminates the game.
+
+ - save
+    Saves the game to the current config file.
+
+ - load <CONFIGFILE>
+    load config file and start game.
+Player 1 > 

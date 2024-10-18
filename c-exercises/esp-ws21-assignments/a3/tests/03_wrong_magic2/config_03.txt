@@ -1,0 +1,20 @@
+Scrabble2
+               
+               
+               
+               
+               
+               
+    S          
+    A          
+    L          
+    T          
+               
+               
+               
+               
+               
+1
+0
+7
+b1 t2 e1 s2 l2 a1 d2 f2 i1 u1 k2 q3

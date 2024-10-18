@@ -1,0 +1,31 @@
+Scrabble
+B                         
+ I                        
+  G                       
+                          
+                          
+    B                     
+     I                    
+      G                   
+       G                  
+        E                 
+         R                
+                          
+                          
+           T              
+            H             
+             E            
+                          
+                          
+               W          
+                H         
+                 O        
+                  L       
+                   E      
+                          
+                          
+                     BOARD
+1
+5
+3
+b2 i1 g2 e1 r2 t3 h2 w3 o1 l2 a3 d4

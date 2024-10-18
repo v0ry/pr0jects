@@ -1,0 +1,20 @@
+Scrabble
+               
+   WORD        
+    V          
+    E          
+    RANDOM     
+    W    A     
+    R    N     
+    I    A     
+    G    G     
+    H    E     
+    THIS R     
+               
+               
+               
+               
+2
+26
+22
+o2 v2 e2 r2 w2 i2 g2 h2 t2 s2 a2 b2 d2 m2 n2

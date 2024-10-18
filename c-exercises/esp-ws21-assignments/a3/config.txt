@@ -1,0 +1,20 @@
+Scrabble
+               
+               
+               
+               
+               
+               
+    A          
+   ALEKS       
+    E          
+    X          
+               
+               
+               
+               
+               
+1
+5
+4
+a1 e1 k1 l1 s1 x2

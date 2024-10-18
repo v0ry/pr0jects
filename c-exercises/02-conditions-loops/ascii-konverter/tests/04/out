@@ -1,0 +1,28 @@
+Insert character: Number:           68
+ASCII Character:  D
+----------------------------------
+Insert number: Number:           74
+ASCII Character:  J
+----------------------------------
+----------------------------------
+Insert character: [ERROR] not a valid Character [A-Z or a-z]
+----------------------------------
+Insert number: [ERROR] not a visible ASCII-Character
+----------------------------------
+----------------------------------
+Insert character: Number:           101
+ASCII Character:  e
+----------------------------------
+Insert number: [ERROR] not a visible ASCII-Character
+----------------------------------
+----------------------------------
+Insert character: Number:           102
+ASCII Character:  f
+----------------------------------
+Insert number: Number:           109
+ASCII Character:  m
+----------------------------------
+----------------------------------
+Insert character: Number:           81
+ASCII Character:  Q
+GOODBYE

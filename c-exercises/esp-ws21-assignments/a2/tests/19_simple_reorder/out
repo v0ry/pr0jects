@@ -1,0 +1,142 @@
+Bitte Text eingeben:
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Habt ihr mich vergessen?
+   2 | Das ist der erste Satz.
+   3 | Ich bin Satz 7.
+   4 | Hallo, ich bin Satz 5!
+   5 | Und vierte.
+   6 | Hier kommt der zweite Satz.
+   7 | Nun der dritte.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text Statistik:
+7 Sätze, 116 Zeichen
+106 Buchstaben (11 Großbuchstaben, 95 Kleinbuchstaben)
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Habt ihr mich vergessen?
+   2 | Das ist der erste Satz.
+   3 | Nun der dritte.
+   4 | Hallo, ich bin Satz 5!
+   5 | Und vierte.
+   6 | Hier kommt der zweite Satz.
+   7 | Ich bin Satz 7.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Das ist der erste Satz.
+   2 | Habt ihr mich vergessen?
+   3 | Nun der dritte.
+   4 | Hallo, ich bin Satz 5!
+   5 | Und vierte.
+   6 | Hier kommt der zweite Satz.
+   7 | Ich bin Satz 7.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Das ist der erste Satz.
+   2 | Habt ihr mich vergessen?
+   3 | Nun der dritte.
+   4 | Und vierte.
+   5 | Hallo, ich bin Satz 5!
+   6 | Hier kommt der zweite Satz.
+   7 | Ich bin Satz 7.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text:
+Das ist der erste Satz. Hier kommt der zweite Satz. Nun der dritte. Und vierte. Hallo, ich bin Satz 5! Habt ihr mich vergessen? Ich bin Satz 7. 
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Programmende!

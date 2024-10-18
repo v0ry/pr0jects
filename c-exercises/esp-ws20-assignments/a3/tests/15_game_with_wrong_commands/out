@@ -1,0 +1,56 @@
+
+ │123456
+─┼──────
+1│█╔══╣╗
+2│█╩███║
+3│█╨█╦═╝
+4│███║██
+5│█╦═╝█╥
+6│█╚║══╝
+
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Usage: rotate ( left | right ) ROW COLUMN
+1 > Error: Rotating start- or end-pipe is not allowed
+1 > Error: Rotating start- or end-pipe is not allowed
+1 > 
+ │123456
+─┼──────
+1│█╔══╩╗
+2│█╩███║
+3│█╨█╦═╝
+4│███║██
+5│█╦═╝█╥
+6│█╚║══╝
+
+2 > 
+ │123456
+─┼──────
+1│█╔══╩╗
+2│█╩███║
+3│█╨█╦═╝
+4│███║██
+5│█╦═╝█╥
+6│█╚═══╝
+
+3 > 
+ │123456
+─┼──────
+1│█╔══╩╗
+2│█╠███║
+3│█╨█╦═╝
+4│███║██
+5│█╦═╝█╥
+6│█╚═══╝
+
+Puzzle solved!
+Score: 3
+Beat Highscore!
+Please enter 3-letter name: Highscore:
+   ESP 3
+   USR 3
+   ALX 5

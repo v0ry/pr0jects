@@ -1,0 +1,20 @@
+Scrabble
+ U             
+ N             
+ K             
+ N             
+ O             
+ W             
+ N             
+    C          
+    O          
+    M          
+    M          
+    A          
+    N          
+    D          
+               
+2
+12
+15
+n1 o2 w1 c2 a1 d2 m2 i1 u1 k2 q3 l4

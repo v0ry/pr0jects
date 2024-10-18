@@ -1,0 +1,53 @@
+----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> All Students: 0: 999999999     1: 4444444     2: 7777777     3: 65455654     4: 11111111     5: 23232323     
+---------------------------------------------------------------------------------------------------------
+ESP Students: 
+---------------------------------------------------------------------------------------------------------
+Analysis Students: 
+---------------------------------------------------------------------------------------------------------
+----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Select Lecture: ESP == 1, Analysis == 2: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Select Lecture: ESP == 1, Analysis == 2: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Select Lecture: ESP == 1, Analysis == 2: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Select Lecture: ESP == 1, Analysis == 2: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Select Lecture: ESP == 1, Analysis == 2: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> All Students: 0: 999999999     1: 4444444     2: 7777777     3: 65455654     4: 11111111     5: 23232323     
+---------------------------------------------------------------------------------------------------------
+ESP Students:  23232323      65455654      7777777     
+---------------------------------------------------------------------------------------------------------
+Analysis Students:  11111111      4444444     
+---------------------------------------------------------------------------------------------------------
+----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> 

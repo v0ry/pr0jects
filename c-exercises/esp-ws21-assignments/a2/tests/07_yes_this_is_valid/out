@@ -1,0 +1,106 @@
+Bitte Text eingeben:
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text:
+ESP und OOP1 sind coooooooool! ! ! ! ! ! ! Du fragst dich wieso jedes Rufzeichen ein eigener Satz ist? Lies die Angabe! ! ! ! 
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | ESP und OOP1 sind coooooooool!
+   2 | !
+   3 | !
+   4 | !
+   5 | !
+   6 | !
+   7 | !
+   8 | Du fragst dich wieso jedes Rufzeichen ein eigener Satz ist?
+   9 | Lies die Angabe!
+  10 | !
+  11 | !
+  12 | !
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | ESP und OOP1 sind coooooooool!
+   2 | !
+   3 |  und !
+   4 | !
+   5 | !
+   6 | !
+   7 | Du fragst dich wieso jedes Rufzeichen ein eigener Satz ist?
+   8 | Lies die Angabe!
+   9 | !
+  10 | !
+  11 | !
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | ESP und OOP1 sind coooooooool!
+   2 |  und  und !
+   3 | !
+   4 | !
+   5 | !
+   6 | Du fragst dich wieso jedes Rufzeichen ein eigener Satz ist?
+   7 | Lies die Angabe!
+   8 | !
+   9 | !
+  10 | !
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Programmende!

@@ -1,0 +1,31 @@
+Scrabble
+     A                    
+ CONGRATULATIONS    V     
+     R    R         A     
+     A    G        ARRAY  
+  Y  Y    U      WYSIWYG  
+LOOPOINTERM         A     
+  U       E         B     
+          N         L     
+          T      HAVE     
+          S        O      
+                   I      
+       PASSED      D      
+      PARAMETER           
+       S                  
+   T   S                  
+   H   E                  
+   E   D                  
+                          
+          COURSE          
+                          
+                          
+   T                PARAM 
+  FUNCTION INTEGER  R     
+   T       S        O     
+   O                U     
+  PROCESSOR         D     
+1
+125
+261
+m3 n4 o5 p1 q2 r3 s4 t5 u1 v2 w3 x4 y5 a1 b2 c3 d4 e5 f1 g2 h3 i4 j5 k1 l2

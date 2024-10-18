@@ -1,0 +1,38 @@
+----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> All Students: 0: 999999999     1: 4444444     2: 7777777     3: 65455654     4: 11111111     5: 23232323     
+---------------------------------------------------------------------------------------------------------
+ESP Students: 
+---------------------------------------------------------------------------------------------------------
+Analysis Students: 
+---------------------------------------------------------------------------------------------------------
+----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Select Lecture: ESP == 1, Analysis == 2: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> Select the Student by the ID (not the studentID itself): Enter new student ID of Student Nr 0: ----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> All Students: 0: 888888888     1: 4444444     2: 7777777     3: 65455654     4: 11111111     5: 23232323     
+---------------------------------------------------------------------------------------------------------
+ESP Students:  888888888     
+---------------------------------------------------------------------------------------------------------
+Analysis Students: 
+---------------------------------------------------------------------------------------------------------
+----- MAIN MENU -----
+:: 0 Quit
+:: 1 Print StudentIDs
+:: 2 Add StudentID to lecture
+:: 3 change StudentID
+> 

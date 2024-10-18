@@ -1,0 +1,94 @@
+
+O2, V2, E2, R2, W2, I2, G2, H2, T2, 
+S2, A2, B2, D2, M2, N2
+  P1:   10 Points
+  P2:   10 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|    O          
+C|    V          
+D|    E          
+E|    R          
+F|    W          
+G|    R          
+H|    I          
+I|    G          
+J|    H          
+K|    THIS       
+L|               
+M|               
+N|               
+O|               
+
+Player 1 > 
+O2, V2, E2, R2, W2, I2, G2, H2, T2, 
+S2, A2, B2, D2, M2, N2
+  P1:   20 Points
+  P2:   10 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|    O          
+C|    V          
+D|    E          
+E|    RANDOM     
+F|    W          
+G|    R          
+H|    I          
+I|    G          
+J|    H          
+K|    THIS       
+L|               
+M|               
+N|               
+O|               
+
+Player 2 > 
+O2, V2, E2, R2, W2, I2, G2, H2, T2, 
+S2, A2, B2, D2, M2, N2
+  P1:   20 Points
+  P2:   22 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|    O          
+C|    V          
+D|    E          
+E|    RANDOM     
+F|    W    A     
+G|    R    N     
+H|    I    A     
+I|    G    G     
+J|    H    E     
+K|    THIS R     
+L|               
+M|               
+N|               
+O|               
+
+Player 1 > 
+O2, V2, E2, R2, W2, I2, G2, H2, T2, 
+S2, A2, B2, D2, M2, N2
+  P1:   26 Points
+  P2:   22 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|   WORD        
+C|    V          
+D|    E          
+E|    RANDOM     
+F|    W    A     
+G|    R    N     
+H|    I    A     
+I|    G    G     
+J|    H    E     
+K|    THIS R     
+L|               
+M|               
+N|               
+O|               
+
+Player 2 > Player 2 > Error: Impossible move!
+Player 2 > 

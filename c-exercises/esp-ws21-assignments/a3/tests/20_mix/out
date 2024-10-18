@@ -1,0 +1,621 @@
+
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:    0 Points
+  P2:  123 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|  O                       
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|                          
+N|                          
+O|   T                      
+P|   H                      
+Q|   E                      
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       I        R     
+X|   T       S        O     
+Y|   O                U     
+Z|   R                D     
+
+Player 2 > Error: Impossible move!
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:    0 Points
+  P2:  131 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|LOOP                      
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|                          
+N|                          
+O|   T                      
+P|   H                      
+Q|   E                      
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       I        R     
+X|   T       S        O     
+Y|   O                U     
+Z|   R                D     
+
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   24 Points
+  P2:  131 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|LOOP                      
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|                          
+N|                          
+O|   T                      
+P|   H                      
+Q|   E                      
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|   R                D     
+
+Player 2 > Error: Impossible move!
+Player 2 > Error: Impossible move!
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   24 Points
+  P2:  161 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|LOOP                      
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|                          
+N|                          
+O|   T                      
+P|   H                      
+Q|   E                      
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > Error: Unknown command: 8nsert
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   42 Points
+  P2:  161 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|LOOP                      
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|       A                  
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   42 Points
+  P2:  161 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|LOOP                      
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|       A                  
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > Error: Insert parameters not valid!
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   68 Points
+  P2:  161 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS          
+C|                          
+D|                          
+E|  Y                       
+F|LOOPOINTER                
+G|  U                       
+H|                          
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|       A                  
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   68 Points
+  P2:  176 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS    V     
+C|                    A     
+D|                    R     
+E|  Y                 I     
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|       A                  
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|   U       INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > Commands:
+ - insert <ROW> <COLUMN> <H/V> <WORD>
+    <H/V> stands for H: horizontal, V: vertical.
+
+ - help
+    Prints this help text.
+
+ - quit
+    Terminates the game.
+
+ - save
+    Saves the game to the current config file.
+
+ - load <CONFIGFILE>
+    load config file and start game.
+Player 1 > Error: Insert parameters not valid!
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   94 Points
+  P2:  176 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS    V     
+C|                    A     
+D|                    R     
+E|  Y                 I     
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|       A                  
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:   94 Points
+  P2:  202 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS    V     
+C|                    A     
+D|                    R     
+E|  Y                 I     
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                P     
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > Error: Insert parameters not valid!
+Player 1 > Error: Impossible move!
+Player 1 > Error: Impossible move!
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  102 Points
+  P2:  202 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|                          
+B| CONGRATULATIONS    V     
+C|                    A     
+D|                    R     
+E|  Y                 I     
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  102 Points
+  P2:  212 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|     A                    
+B| CONGRATULATIONS    V     
+C|     R              A     
+D|     A              R     
+E|  Y  Y              I     
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > Error: Impossible move!
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  112 Points
+  P2:  212 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|     A                    
+B| CONGRATULATIONS    V     
+C|     R              A     
+D|     A             ARRAY  
+E|  Y  Y              I     
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  112 Points
+  P2:  234 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|     A                    
+B| CONGRATULATIONS    V     
+C|     R              A     
+D|     A             ARRAY  
+E|  Y  Y           WYSIWYG  
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                          
+K|                          
+L|       PASSED             
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  125 Points
+  P2:  234 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|     A                    
+B| CONGRATULATIONS    V     
+C|     R              A     
+D|     A             ARRAY  
+E|  Y  Y           WYSIWYG  
+F|LOOPOINTER          A     
+G|  U                 B     
+H|                    L     
+I|                 HAVE     
+J|                   O      
+K|                   I      
+L|       PASSED      D      
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  125 Points
+  P2:  261 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|     A                    
+B| CONGRATULATIONS    V     
+C|     R    R         A     
+D|     A    G        ARRAY  
+E|  Y  Y    U      WYSIWYG  
+F|LOOPOINTERM         A     
+G|  U       E         B     
+H|          N         L     
+I|          T      HAVE     
+J|          S        O      
+K|                   I      
+L|       PASSED      D      
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 1 > Player 1 > 
+M3, N4, O5, P1, Q2, R3, S4, T5, U1, 
+V2, W3, X4, Y5, A1, B2, C3, D4, E5, 
+F1, G2, H3, I4, J5, K1, L2
+  P1:  149 Points
+  P2:  261 Points
+ |ABCDEFGHIJKLMNOPQRSTUVWXYZ
+----------------------------
+A|     A                    
+B| CONGRATULATIONS    V     
+C|     R    R         A     
+D|     A    G        ARRAY  
+E|  Y  Y    U      WYSIWYG  
+F|LOOPOINTERM         A     
+G|  U       E         B     
+H|          N         L     
+I|          T      HAVE     
+J|          S        OBJECTS
+K|                   I      
+L|       PASSED      D      
+M|      PARAMETER           
+N|       S                  
+O|   T   S                  
+P|   H   E                  
+Q|   E   D                  
+R|                          
+S|          COURSE          
+T|                          
+U|                          
+V|   T                PARAM 
+W|  FUNCTION INTEGER  R     
+X|   T       S        O     
+Y|   O                U     
+Z|  PROCESSOR         D     
+
+Player 2 > Player 2 has won the game with 341 points!

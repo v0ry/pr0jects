@@ -1,0 +1,2 @@
+Compression:   ./main -c 'compressed_file' 'uncompressed_file'
+Decompression: ./main -d 'uncompressed_file' 'compressed_file'

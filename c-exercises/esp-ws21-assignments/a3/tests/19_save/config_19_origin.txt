@@ -1,0 +1,20 @@
+Scrabble
+               
+    O          
+    V          
+    E          
+    R          
+    W          
+    R          
+    I          
+    G          
+    H          
+    THIS       
+               
+               
+               
+               
+1
+10
+10
+o2 v2 e2 r2 w2 i2 g2 h2 t2 s2 a2 b2 d2 m2 n2

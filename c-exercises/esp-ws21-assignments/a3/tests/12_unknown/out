@@ -1,0 +1,28 @@
+
+N1, O2, W1, C2, A1, D2, M2, I1, U1, 
+K2, Q3, L4
+  P1:   12 Points
+  P2:   15 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A| U             
+B| N             
+C| K             
+D| N             
+E| O             
+F| W             
+G| N             
+H|    C          
+I|    O          
+J|    M          
+K|    M          
+L|    A          
+M|    N          
+N|    D          
+O|               
+
+Player 2 > Error: Unknown command: hansi
+Player 2 > Player 2 > Error: Unknown command: spaces
+Player 2 > Player 2 > Error: Unknown command: help2
+Player 2 > Error: Unknown command: 123
+Player 2 > 

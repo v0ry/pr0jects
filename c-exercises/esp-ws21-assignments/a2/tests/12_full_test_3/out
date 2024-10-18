@@ -1,0 +1,506 @@
+Bitte Text eingeben:
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text Statistik:
+30 Sätze, 2820 Zeichen
+2725 Buchstaben (180 Großbuchstaben, 2545 Kleinbuchstaben)
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   2 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   3 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT).
+   4 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+   5 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   6 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   7 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   8 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   9 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT).
+  10 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  11 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+  12 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+  13 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+  14 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+  15 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT).
+  16 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  17 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+  18 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+  19 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+  20 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+  21 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT).
+  22 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  23 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+  24 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+  25 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+  26 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+  27 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT).
+  28 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  29 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+  30 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Ihre Wahl: Ihre Wahl: Ihre Wahl: Ihre Wahl: Ihre Wahl: Ihre Wahl: Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   2 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+   3 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   4 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   5 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   6 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   7 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   8 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   9 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  10 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+  11 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+  12 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+  13 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  14 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   2 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   3 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   4 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+   5 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+   6 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   7 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   8 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   9 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung.
+  10 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   2 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   3 | Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   4 | Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   5 | Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   6 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des ersten Satzes: Nummer des zweiten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen.
+   2 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+   3 | Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Dadurch koennen arithmetische Rechenoperationen eingespart werden.
+   2 | Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nummer des ersten Satzes: Nummer des zweiten Satzes: 
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl:  Nr. | Satz
+-----+----------------------------------------
+   1 | Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden.
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nur noch ein Satz vorhanden!
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Nur noch ein Satz vorhanden!
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text:
+Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Es kommen bei der IFFT die gleichen Algorithmen, aber mit konjugierten Koeffizienten zur Anwendung und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Analog gibt es fuer die diskrete inverse Fourier-Transformation die inverse schnelle Fourier-Transformation (IFFT) und Dadurch koennen arithmetische Rechenoperationen eingespart werden und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden und Die FFT gehoert zu den "Divide-and-conquer"-Verfahren, sodass zuvor berechnete Zwischenergebnisse wiederverwendet werden koennen und Die schnelle Fourier-Transformation ist ein Algorithmus zur effizienten Berechnung der diskreten Fourier-Transformation und Mit ihr kann ein zeitdiskretes Signal in seine Frequenzanteile zerlegt und dadurch analysiert werden. 
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Text Statistik:
+1 Sätze, 2878 Zeichen
+2812 Buchstaben (180 Großbuchstaben, 2632 Kleinbuchstaben)
+
+Wählen Sie eine Option:
+  t: Text-Statistik
+  s: Zwei Sätze vertauschen
+  c: Zwei Sätze zusammenketten
+  p: Text mit Zeilennummer ausgeben
+  o: Text ohne Zeilennummer ausgeben
+  e: Programm beenden
+
+Ihre Wahl: Programmende!

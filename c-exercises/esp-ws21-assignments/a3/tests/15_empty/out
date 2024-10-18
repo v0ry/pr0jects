@@ -1,0 +1,71 @@
+
+Q1, W1, E1, R1, T1, Y1, A1, S1, D1, 
+F1
+  P1:    0 Points
+  P2:    0 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B|               
+C|               
+D|               
+E|               
+F|               
+G|               
+H|               
+I|               
+J|               
+K|               
+L|               
+M|               
+N|               
+O|               
+
+Player 1 > 
+Q1, W1, E1, R1, T1, Y1, A1, S1, D1, 
+F1
+  P1:    6 Points
+  P2:    0 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B| Q             
+C| W             
+D| E             
+E| R             
+F| T             
+G| Y             
+H|               
+I|               
+J|               
+K|               
+L|               
+M|               
+N|               
+O|               
+
+Player 2 > Error: Impossible move!
+Player 2 > 
+Q1, W1, E1, R1, T1, Y1, A1, S1, D1, 
+F1
+  P1:    6 Points
+  P2:    5 Points
+ |ABCDEFGHIJKLMNO
+-----------------
+A|               
+B| QWERTY        
+C| W             
+D| E             
+E| R             
+F| T             
+G| Y             
+H|               
+I|               
+J|               
+K|               
+L|               
+M|               
+N|               
+O|               
+
+Player 1 > 

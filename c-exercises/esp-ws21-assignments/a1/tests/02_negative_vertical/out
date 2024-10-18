@@ -1,0 +1,10 @@
+Erforderlicher Durchfluss [l/min]: Horizontale Distanz [m]: Invalide Eingabe!
+Horizontale Distanz [m]: Vertikale Distanz [m]: 
+Ziel: (100, 200)
+Neigung [rad]: 1.1071
+Durchfluss [l/min]: 450
+Reibungsbeiwert [bar/m]: 0.0050
+  Pumpe1: (40.25, 80.50)
+  Pumpe2: (80.50, 161.00)
+  Pumpe3: (100.00, 200.00)
+Austrittsdruck Zielpunkt [bar]: 10.00

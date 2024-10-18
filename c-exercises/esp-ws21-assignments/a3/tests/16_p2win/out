@@ -1,0 +1,61 @@
+
+P2, L2, A2, Y2, E2, R2, T2, O2, I2, 
+S2, H2, W2, N2, G2
+  P1:   20 Points
+  P2:   50 Points
+ |ABCDEFGHIJKL
+--------------
+A|            
+B| PLAYER TWO 
+C|            
+D| IS         
+E|            
+F| THE        
+G|            
+H| WINNER     
+I|            
+J|            
+K|            
+L|            
+
+Player 2 > 
+P2, L2, A2, Y2, E2, R2, T2, O2, I2, 
+S2, H2, W2, N2, G2
+  P1:   20 Points
+  P2:   58 Points
+ |ABCDEFGHIJKL
+--------------
+A|      G     
+B| PLAYER TWO 
+C|      E     
+D| IS   A     
+E|      T     
+F| THE        
+G|            
+H| WINNER     
+I|            
+J|            
+K|            
+L|            
+
+Player 1 > 
+P2, L2, A2, Y2, E2, R2, T2, O2, I2, 
+S2, H2, W2, N2, G2
+  P1:   24 Points
+  P2:   58 Points
+ |ABCDEFGHIJKL
+--------------
+A|      G     
+B| PLAYER TWO 
+C|      E     
+D| IS   A     
+E|      T     
+F| THE        
+G|            
+H| WINNER     
+I| H          
+J| Y          
+K|            
+L|            
+
+Player 2 > Player 2 has won the game with 72 points!
