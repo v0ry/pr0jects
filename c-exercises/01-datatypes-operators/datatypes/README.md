@@ -21,17 +21,17 @@ Das Programm benötigt keine Eingabe und dient nur zur Veranschaulichung der Dat
 
 #### Ganzzahlen
 
-| Datentyp                           | Größe in byte | darstellbarer Wertebereich                                   |
-| ---------------------------------- | ------------- | ------------------------------------------------------------ |
-| signed char<br />unsigned char   | 1 byte        | -128 bis 127<br />0 bis 255                                  |
-| (signed) short<br />unsigned short | 2 byte        | -32.768 bis 32.767<br />0 bis 65.535                         |
-| (signed) int<br />unsigned int     | 4 byte        | -2.147.483.648 bis 2.147.483.647<br />4.294.967.295          |
-| (signed) long<br />unsigned long   | 8 byte (bei Linux und Mac)        | -9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807<br />0 bis 18.446.744.073.709.551.615 |
+| Datentyp                           | Größe in byte              | darstellbarer Wertebereich                                                                     |
+| ---------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------- |
+| signed char<br />unsigned char     | 1 byte                     | -128 bis 127<br />0 bis 255                                                                    |
+| (signed) short<br />unsigned short | 2 byte                     | -32.768 bis 32.767<br />0 bis 65.535                                                           |
+| (signed) int<br />unsigned int     | 4 byte                     | -2.147.483.648 bis 2.147.483.647<br />4.294.967.295                                            |
+| (signed) long<br />unsigned long   | 8 byte (bei Linux und Mac) | -9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807<br />0 bis 18.446.744.073.709.551.615 |
 
 #### Gleitkommazahlen
 
-| Datentyp    | Größe in byte | Genauigkeit       |
-| ----------- | ------------- | ----------------- |
+| Datentyp    | Größe in byte | Genauigkeit           |
+| ----------- | ------------- | --------------------- |
 | float       | 4 byte        | ca. 6 Dezimalstellen  |
 | double      | 8 byte        | ca. 15 Dezimalstellen |
 | long double | 10 byte       | ca. 19 Dezimalstellen |
