@@ -1,0 +1,18 @@
+.class-txt {
+  background-color: lightpink;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two {
+  color: hsl(241, 100%, 48%);
+  font-size: 36px;
+}
+
+.class-txt.cooler {
+  font-size: 24px;
+}
+
+#four {
+  background-color: #a1fc8f;
+  font-size: 24px;
+}

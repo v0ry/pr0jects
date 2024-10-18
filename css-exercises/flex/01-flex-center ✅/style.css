@@ -1,0 +1,40 @@
+.container div {
+  flex: auto;
+}
+
+
+.container {
+  background: dodgerblue;
+  border: 4px solid midnightblue;
+  width: 400px;
+  height: 300px;
+
+  /* Make <div> a container for Flexbox. */
+  display: inline-flex;
+  /* Align items across the y-axis  */
+  align-items: center;
+  /* Algin items across the main axis */
+  justify-content: center;
+}
+
+.box {
+  background: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  background: green;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid black;
+  width: 80px;
+  height: 80px;
+}

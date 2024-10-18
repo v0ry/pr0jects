@@ -1,0 +1,49 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+   /* Align the Ïnforamtion! centered above the other flexbox */
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  /* Could have added margine here, would habe been sleaker, but decided to add it to the .child  */
+}
+
+/* Initialice a child flex container, so that all children are flex-direction: row, as we want them to be displayed horizontqally   We need this, in order for the first layer of the children to align across the main axis.*/
+.child {
+  display: flex;
+  /* flex-direction: row; is default setting for felx */
+  margin-top: 10px;
+}
+
+
+/* We need this as a second layer, in order for the text to be aligned acrosse the y-axis */
+.child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This will align items (img) centered in the flexbox (container) */
+  text-align: center; /* Perfect, this aligned the text as we wnated it cented. 
+}
+
+div > img {
+  background: #f4f4f4; /* -- Just to see, if it works out and I'm actually working on what I want to. Important, cardinality, of div > img is pretty weak */
+}
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
