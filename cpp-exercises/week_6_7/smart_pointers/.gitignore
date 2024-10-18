@@ -1,0 +1,6 @@
+.vscode/
+drinks
+build/
+valgrind_logs/
+testreport.html
+config/
