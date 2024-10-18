@@ -1,0 +1,39 @@
+# use for next testrunner version
+> Add new costs for David:  (type 'exit' in description if finished)
+? Description: 
+< Beer from 4.2.
+? Price: 
+< 13.43
+? Description: 
+< Food 5.2.
+? Price: 
+< 42.02
+? Description: 
+< exit
+> Add new costs for Franz:  (type 'exit' in description if finished)
+? Description: 
+< Food 3.2.
+? Price: 
+< 11.43
+? Description: 
+< exit
+> Add new costs for Linda:  (type 'exit' in description if finished)
+? Description: 
+< Friday Party
+? Price: 
+< 42.82
+? Description: 
+< exit
+> ----------------------------------
+> Costs of David
+> 13.43 'Beer from 4.2.'
+> 42.02 'Food 5.2.'
+> Total costs of David: 55.45
+> ----------------------------------
+> Costs of Franz
+> 11.43 'Food 3.2.'
+> Total costs of Franz: 11.43
+> ----------------------------------
+> Costs of Linda
+> 42.82 'Friday Party'
+> Total costs of Linda: 42.82

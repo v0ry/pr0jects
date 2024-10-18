@@ -1,0 +1,56 @@
+# Testcase Structure:
+#    name: String, // The name of the testcase
+#    subname: Option<String>, // used for unittests later
+#    testcase_type: String, //Only IO supported now
+#    description: Option<String>, // optional description
+#    args: Option<String>, // command line arguments 
+#    cflags: Option<String>, // compile flags
+#    tags: Option<Tags>, // tags for unit tests
+#    in_file: Option<String>, // stdin file 
+#    exp_file: Option<String>, // stdout file
+#    in_string: Option<String>, // stdin string (in_file has higher priority)
+#    exp_string: Option<String>, // stdout string (out_file has higher priority)
+#    exp_retvar: Option<i32>, // optional expected status code
+#    timeout: Option<i32>, // timeout in seconds .. default is 5 sec
+#    env_vars:Option<String>, // optional environment parameters RAND_SEED=123,foo=bar
+
+[project_definition]
+project_name = "drinks"
+makefile_path = "."
+maketarget = "all"
+
+[[testcases]]
+name = "basic order"
+testcase_type = "IO"
+description = "sit, order a drink and chaotically leave the table..."
+args = []
+in_file = "tests/01_basic_order/in"
+exp_file = "tests/01_basic_order/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "dinner for two"
+testcase_type = "IO"
+description = "A romantic dinner for two"
+args = []
+in_file = "tests/02_dinner/in"
+exp_file = "tests/02_dinner/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "dinner for one"
+testcase_type = "IO"
+description = "A New Year's Eve classic"
+args = []
+in_file = "tests/03_dinner_for_one/in"
+exp_file = "tests/03_dinner_for_one/out"
+exp_retvar = 0
+
+[[testcases]]
+name = "Oktoberfest"
+testcase_type = "IO"
+description = "🏔️🥨🎡"
+args = []
+in_file = "tests/04_oktoberfest/in"
+exp_file = "tests/04_oktoberfest/out"
+exp_retvar = 0

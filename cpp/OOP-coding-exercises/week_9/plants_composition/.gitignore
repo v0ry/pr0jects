@@ -1,0 +1,13 @@
+# Folders
+.idea
+.vscode
+build
+valgrind_logs
+solution/build
+solution/composition
+
+# Files
+composition
+testreport.html
+solution/composition
+solution/testreport.html
