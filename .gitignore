@@ -1,0 +1,27 @@
+# macOS System Files
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Compiled source
+*.out
+*.o
+*.so
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE configurations
+.vscode/
+.idea/
+
