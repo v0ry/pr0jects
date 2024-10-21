@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int main(void)
-{
-  char character = 0; 
+int main(void) {
+  char character = 0;
+  // Frage nach einem Buchstaben
   printf("Insert character: ");
+  // Speichern des Buchstaben & Assign der Variable
   scanf("%c", &character);
-  
+
   // The number Thing
-  printf("Number: %i\n", character); /* Convert char into Number */
+  printf("Number: %i\n", character);          /* Convert char into Number */
   printf("ASCII Character: %c\n", character); /* ASCII == Plain Text! */
 
   printf("----------------------------------\n");
@@ -19,6 +20,6 @@ int main(void)
 
   printf("Number: %i\n", number);
   printf("ASCII Character: %c\n", number);
-  
+
   return 0;
 }
