@@ -15,7 +15,7 @@ Bis es so weit ist, müssen wir unsere `Pet`-Klasse allerdings noch weiter verbe
 1. Für die Verwaltung eines Tierheimes wäre es wichtig, dass jedes Tier eine eigene ID hat.
 2. Wir können uns vorstellen, dass ein Tierheim ein `Pet`-Objekt nicht mehr benötigt, wenn das entsprechende Tier an eine\*n neue\*n Besitzer\*in übergeben wird. In einem solchen Fall sollte also die Anzahl der Tiere wieder verringert werden.
 
-Die [Lösung des letzten Übungsbeispiels](../pets_8_copy_constructor/solution.cpp) stellt in `pets.cpp` auch den Ausgangspunkt für dieses Beispiel dar. Lediglich die `main`-Funktion hat sich geändert und verwendet bereits die hier zu implementierenden Features der `Pet`-Klasse.
+Die [Lösung des letzten Übungsbeispiels](Semester%2002/OOP1/pr0jects/cpp-exercises/week_3/pets_8_copy_constructor/solution.cpp) stellt in `pets.cpp` auch den Ausgangspunkt für dieses Beispiel dar. Lediglich die `main`-Funktion hat sich geändert und verwendet bereits die hier zu implementierenden Features der `Pet`-Klasse.
 
 ## Deine Aufgabe
 

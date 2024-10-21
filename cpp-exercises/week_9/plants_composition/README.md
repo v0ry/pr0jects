@@ -6,7 +6,7 @@ Dieses Beispiel soll zeigen, wie Komposition als alternatives bzw. ergänzendes 
 
 ## Das Problem
 
-Es wird ähnlich wie [in einem anderen Übungsbeispiel](../../week_4/plants_inheritance/README.md) ein kleiner Garten erstellt. Im anderen Übungsbeispiel erlangten die Pflanzen mit Hilfe von Vererbung unterschiedliches Verhalten. In diesem Beispiel möchten wir den Pflanzen unterschiedliches (Wachstums-)Verhalten durch *Komposition* verleihen. Hierfür steht die Datei `main.cpp` mit der `main`-Funktion bereits zur Verfügung. Sie übernimmt die Ausführung des Programms. Die in `main.cpp` verwendeten Klassen müssen jedoch erst erstellt werden.
+Es wird ähnlich wie [in einem anderen Übungsbeispiel](Semester%2002/OOP1/pr0jects/cpp-exercises/week_4/plants_inheritance/README.md) ein kleiner Garten erstellt. Im anderen Übungsbeispiel erlangten die Pflanzen mit Hilfe von Vererbung unterschiedliches Verhalten. In diesem Beispiel möchten wir den Pflanzen unterschiedliches (Wachstums-)Verhalten durch *Komposition* verleihen. Hierfür steht die Datei `main.cpp` mit der `main`-Funktion bereits zur Verfügung. Sie übernimmt die Ausführung des Programms. Die in `main.cpp` verwendeten Klassen müssen jedoch erst erstellt werden.
 
 ## Deine Lösung
 

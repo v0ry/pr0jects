@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, Funktionen mit Objekten als Parameter zu ve
 
 ## Das Problem
 
-Die Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zur Datei [`../pets_3_method/solution.cpp`](../pets_3_method/solution.cpp) besteht darin, dass es eine zusätzliche Funktion im Programm gibt. Diese Funktion heißt `happy_birthday` und sie wird in der `main`-Funktion für jedes Tier zwei Mal aufgerufen. Die Aufgabe von `happy_birthday` ist es, das Alter eines Haustiers um eins zu erhöhen und einen entsprechenden Text auszugeben. Wenn du `make test` ausführst, wirst du allerdings bemerken, dass die Erhöhung des Alters nicht (oder nicht immer?) funktioniert. Woran kann das liegen?
+Die Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zur Datei [`../pets_3_method/solution.cpp`](Semester%2002/OOP1/pr0jects/cpp-exercises/week_2/pets_3_method/solution.cpp) besteht darin, dass es eine zusätzliche Funktion im Programm gibt. Diese Funktion heißt `happy_birthday` und sie wird in der `main`-Funktion für jedes Tier zwei Mal aufgerufen. Die Aufgabe von `happy_birthday` ist es, das Alter eines Haustiers um eins zu erhöhen und einen entsprechenden Text auszugeben. Wenn du `make test` ausführst, wirst du allerdings bemerken, dass die Erhöhung des Alters nicht (oder nicht immer?) funktioniert. Woran kann das liegen?
 
 ## Deine Aufgabe
 

@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, die Verwendung von Strings und Streams zu �
 
 ## Das Problem
 
-Im [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat))-File [`Studierendenstatistik.csv`](./Studierendenstatistik.csv) findest du eine [Statistik der belegten Studien an der TU Graz](https://online.tugraz.at/tug_online/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/Studierendenstatistik.html?$ctx=design=ca2;header=max;lang=de&pAuswertung=8&pGruppierung=1&pSJ=1665&pSemester=S&pVerteilungsschluessel=TRUE). Hier ist für jeden Studiengang die Anzahl an inländischen & internationalen Studierenden sowie die Anzahl an männlichen & weiblichen Studierenden angeführt. Jede Zeile in der CSV-Datei (mit Ausnahme der Ersten) entspricht einem Studiengang und enthält Informationen über diesen. Die Informationen über einen Studiengang sind dabei durch Beistriche (`,`) voneinander getrennt, wie du anhand der folgenden Beispielzeile erkennen kannst.
+Im [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat))-File [`Studierendenstatistik.csv`](Semester%2002/OOP1/pr0jects/cpp-exercises/week_5/read_tugraz_file/Studierendenstatistik.csv) findest du eine [Statistik der belegten Studien an der TU Graz](https://online.tugraz.at/tug_online/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/Studierendenstatistik.html?$ctx=design=ca2;header=max;lang=de&pAuswertung=8&pGruppierung=1&pSJ=1665&pSemester=S&pVerteilungsschluessel=TRUE). Hier ist für jeden Studiengang die Anzahl an inländischen & internationalen Studierenden sowie die Anzahl an männlichen & weiblichen Studierenden angeführt. Jede Zeile in der CSV-Datei (mit Ausnahme der Ersten) entspricht einem Studiengang und enthält Informationen über diesen. Die Informationen über einen Studiengang sind dabei durch Beistriche (`,`) voneinander getrennt, wie du anhand der folgenden Beispielzeile erkennen kannst.
 
 ```
 UF 066 649,Masterstudium; Computational Social Systems,11,5,3,3,22
@@ -35,13 +35,13 @@ Außer den in der ersten Zeile der CSV-Datei angeführten Merkmalen eines Studie
 
 In diesem Übungsbeispiel berechnen wir derartige Statistiken und das Tolle ist, dass der Code dafür bereits fast zur Gänze vom LV-Team zur Verfügung gestellt wurde 😃️
 
-Eine sehr zentrale Rolle spielt die Klasse `Major`, welche Informationen über einen Studiengang zusammenfasst. Diese Klasse ist bereits in [Major.hpp](./Major.hpp) und [Major.cpp](./Major.cpp) implementiert.
+Eine sehr zentrale Rolle spielt die Klasse `Major`, welche Informationen über einen Studiengang zusammenfasst. Diese Klasse ist bereits in [Major.hpp](Semester%2002/OOP1/pr0jects/cpp-exercises/week_5/read_tugraz_file/Major.hpp) und [Major.cpp](Semester%2002/OOP1/pr0jects/cpp-exercises/week_5/read_tugraz_file/Major.cpp) implementiert.
 
-Wir haben außerdem bereits eine Klasse namens `Database` für dich erstellt (in [`Database.hpp`](./Database.hpp) und [`Database.cpp`](./Database.cpp)). Diese Klasse verfügt über einen `std::vector` als Attribut, in welchem Studiengänge, das heißt `Major`-Objekte gespeichert sind. Außerdem bietet die Klasse bereits Methoden, die interessante Statistiken zu Studiengängen an der TU Graz ausgeben.
+Wir haben außerdem bereits eine Klasse namens `Database` für dich erstellt (in [`Database.hpp`](Semester%2002/OOP1/pr0jects/cpp-exercises/week_5/read_tugraz_file/Database.hpp) und [`Database.cpp`](Semester%2002/OOP1/pr0jects/cpp-exercises/week_5/read_tugraz_file/Database.cpp)). Diese Klasse verfügt über einen `std::vector` als Attribut, in welchem Studiengänge, das heißt `Major`-Objekte gespeichert sind. Außerdem bietet die Klasse bereits Methoden, die interessante Statistiken zu Studiengängen an der TU Graz ausgeben.
 
 Woher bezieht ein `Database`-Objekt die Informationen über die einzelnen Studiengänge? 🤔️ Das geschieht im Konstruktor, in dem die Methode `parseFile(const string& filename)` aufgerufen wird, welche die Datei `filename` lesen soll. Das Argument `filename` ist in der `main`-Funktion der Name der oben erwähnten CSV-Datei.
 
-Die `parseFile`-Methode ist das Einzige, was im bereitgestellten Code fehlt. In [`Database.cpp`](./Database.cpp)) wirst du einen `TODO`-Kommentar finden, welcher die einzelnen Schritte dieser Methode erklärt.
+Die `parseFile`-Methode ist das Einzige, was im bereitgestellten Code fehlt. In [`Database.cpp`](Semester%2002/OOP1/pr0jects/cpp-exercises/week_5/read_tugraz_file/Database.cpp)) wirst du einen `TODO`-Kommentar finden, welcher die einzelnen Schritte dieser Methode erklärt.
 
 Ist das Einlesen fertig implementiert, wird dir die Datenbank mitteilen, welches Studium von den meisten Studierenden studiert wird, welcher Studiengang den größten Frauen- oder Männeranteil hat, usw. Viel Spaß beim Erforschen der Daten! 🙂️
 

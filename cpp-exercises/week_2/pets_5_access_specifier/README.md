@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, Access Specifier einzusetzen.
 
 ## Das Problem
 
-Die Datei `pets.cpp` entspricht der [Lösung der vorherigen Aufgabe](../pets_4_object_as_parameter/solution.cpp). Der Code in `pets.cpp` besteht den Test Case bereits aber er bedarf dennoch einer Überarbeitung. Alle Member Variablen der Klasse `Pet` sind von außen zugänglich und die Funktion `happy_birthday` macht von der Möglichkeit Gebrauch, auf das Attribut `age_` zuzugreifen. Wir haben in der VO jedoch gehört, dass es eine gute Praxis ist, Membervariablen von außerhalb der Klasse nicht direkt zugänglich zu machen.
+Die Datei `pets.cpp` entspricht der [Lösung der vorherigen Aufgabe](Semester%2002/OOP1/pr0jects/cpp-exercises/week_2/pets_4_object_as_parameter/solution.cpp). Der Code in `pets.cpp` besteht den Test Case bereits aber er bedarf dennoch einer Überarbeitung. Alle Member Variablen der Klasse `Pet` sind von außen zugänglich und die Funktion `happy_birthday` macht von der Möglichkeit Gebrauch, auf das Attribut `age_` zuzugreifen. Wir haben in der VO jedoch gehört, dass es eine gute Praxis ist, Membervariablen von außerhalb der Klasse nicht direkt zugänglich zu machen.
 
 ## Deine Aufgabe
 ### Access Specifier

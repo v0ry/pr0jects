@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, die Verwendung des Copy-Konstruktors zu üb
 
 ## Das Problem
 
-Die `Pet`-Klasse in der Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zu [../pets_7_static_members/solution.cpp](../pets_7_static_members/solution.cpp) ist die `main`-Funktion. In der `main`-Funktion wird an zwei Stellen versucht, die Anzahl der erstellten Haustier-Objekte auszugeben. Allerdings scheint das nicht richtig zu funktionieren.
+Die `Pet`-Klasse in der Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zu [Semester 02/OOP1/pr0jects/cpp-exercises/week_3/pets_7_static_members/solution.cpp](Semester%2002/OOP1/pr0jects/cpp-exercises/week_3/pets_7_static_members/solution.cpp) ist die `main`-Funktion. In der `main`-Funktion wird an zwei Stellen versucht, die Anzahl der erstellten Haustier-Objekte auszugeben. Allerdings scheint das nicht richtig zu funktionieren.
 
 Nach fünf erstellten Haustieren wird richtigerweise ausgegeben, dass fünf Haustiere erstellt wurden. Aber nach der Erzeugung des sechsten Haustiers wird wieder ausgegeben, dass fünf Haustiere erstellt wurden. Woran könnte das liegen? 🤔️
 

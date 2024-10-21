@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, die Aufteilung von Klassen in zwei Dateien 
 
 ## Das Problem
 
-Ausgangspunkt dieses Übungsbeispiels ist wieder die [Lösung des vorangegangenen Übungsbeispiels](../pets_9_id_and_better_counting/solution.cpp). Im Vergleich dazu unterscheidet sich die Datei `pets.cpp` nur in ihrer `main`-Funktion. In dieser Funktion wird versucht auf die Attribute `species_` und `age_` zuzugreifen, jedoch ist das nicht möglich, da diese `private` sind. Wir möchten lesenden Zugriff von außen auf diese Attribute erlauben aber schreibenden Zugriff weiterhin verhindern.
+Ausgangspunkt dieses Übungsbeispiels ist wieder die [Lösung des vorangegangenen Übungsbeispiels](Semester%2002/OOP1/pr0jects/cpp-exercises/week_3/pets_9_id_and_better_counting/solution.cpp). Im Vergleich dazu unterscheidet sich die Datei `pets.cpp` nur in ihrer `main`-Funktion. In dieser Funktion wird versucht auf die Attribute `species_` und `age_` zuzugreifen, jedoch ist das nicht möglich, da diese `private` sind. Wir möchten lesenden Zugriff von außen auf diese Attribute erlauben aber schreibenden Zugriff weiterhin verhindern.
 
 Außerdem fällt uns auf, dass die `Pet`-Klasse mit der Zeit ganz schön unübersichtlich geworden ist. Es wäre viel übersichtlicher, wenn die Implementierung der längeren Methoden – vor allem der `greet`-Methode – in einer eigenen Datei stehen würde.
 

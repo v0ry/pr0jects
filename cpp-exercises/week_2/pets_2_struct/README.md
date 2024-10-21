@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, den grundlegenden Umgang mit `struct` zu ü
 
 ## Das Problem
 
-Die Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zur Datei [`../pets_1_enum/solution.cpp`](../pets_1_enum/solution.cpp) besteht darin, dass in `pets.cpp` für jedes Tier neben der Tierart noch eine weitere Eigenschaft (Alter) einer Variable zugewiesen wird. Somit gibt es in der `main`-Funktion zehn lokale Variablen (zwei für jedes Tier).
+Die Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zur Datei [`../pets_1_enum/solution.cpp`](Semester%2002/OOP1/pr0jects/cpp-exercises/week_2/pets_1_enum/solution.cpp) besteht darin, dass in `pets.cpp` für jedes Tier neben der Tierart noch eine weitere Eigenschaft (Alter) einer Variable zugewiesen wird. Somit gibt es in der `main`-Funktion zehn lokale Variablen (zwei für jedes Tier).
 
 Das Programm besteht zwar den Test Case, allerdings mit Warnings, denn ein Teil der zehn Variablen in der `main`-Funktion wird nicht verwendet. Die zehn lokalen Variablen machen das Programm auch etwas unübersichtlich. Gäbe es für jedes Tier noch weitere Eigenschaften (z. B. den Namen und das Gewicht) in jeweils eigenen Variablen, dann wäre das Programm noch schwerer überblickbar.
 

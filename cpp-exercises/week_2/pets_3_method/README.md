@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, den grundlegenden Umgang mit Methoden zu ü
 
 ## Das Problem
 
-Die Datei `pets.cpp` entspricht der [Lösung der vorherigen Aufgabe](../pets_2_struct/solution.cpp). Der Code in `pets.cpp` besteht in diesem Übungsbeispiel auch bereits den Test Case. Dennoch sollte der Code überarbeitet werden.
+Die Datei `pets.cpp` entspricht der [Lösung der vorherigen Aufgabe](Semester%2002/OOP1/pr0jects/cpp-exercises/week_2/pets_2_struct/solution.cpp). Der Code in `pets.cpp` besteht in diesem Übungsbeispiel auch bereits den Test Case. Dennoch sollte der Code überarbeitet werden.
 
 Im Programm gibt es einen eigenen Datentyp für Haustiere, welcher über zwei Membervariablen (`species_` und `age_`) verfügt. Es fällt auf, dass die Funktion `greet` das Verhalten einer Klasse beschreibt. In der VO haben wir jedoch gehört, dass das Verhalten von Objekten mit Hilfe von Methoden ausgedrückt werden soll. Auf diese Weise werden die Daten einer Klasse mit der dazugehörigen Programmlogik vereint.
 

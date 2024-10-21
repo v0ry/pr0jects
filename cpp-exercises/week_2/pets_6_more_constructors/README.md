@@ -8,7 +8,7 @@ Ziel dieses Übungsbeispiels ist es, die Verwendung von Konstruktoren zu üben.
 
 ## Das Problem
 
-Die Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zu [../pets_5_access_specifier/solution.cpp](../pets_5_access_specifier/solution.cpp) ist, dass zwei weitere `Pet`-Objekte am Ende der `main`-Funktion angelegt werden. Das erste dieser zwei Objekte soll dabei ohne Parameter für den Konstruktor erzeugt werden. Beim zweiten Objekt wird dem Konstruktor lediglich die Tierart mitgeteilt.
+Die Datei `pets.cpp` entspricht der Lösung der vorherigen Aufgabe. Der einzige Unterschied zu [Semester 02/OOP1/pr0jects/cpp-exercises/week_2/pets_5_access_specifier/solution.cpp](Semester%2002/OOP1/pr0jects/cpp-exercises/week_2/pets_5_access_specifier/solution.cpp) ist, dass zwei weitere `Pet`-Objekte am Ende der `main`-Funktion angelegt werden. Das erste dieser zwei Objekte soll dabei ohne Parameter für den Konstruktor erzeugt werden. Beim zweiten Objekt wird dem Konstruktor lediglich die Tierart mitgeteilt.
 
 Der Konstruktor der Klasse `Pet` erwartet zwei Parameter. Das heißt, dass es für die zwei neuen `Pet`-Objekte keinen passenden Konstruktor gibt.
 
