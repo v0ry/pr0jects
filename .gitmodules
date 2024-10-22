@@ -1,0 +1,3 @@
+[submodule "con2425_g26"]
+	path = con2425_g26
+	url = git@git.teaching.iaik.tugraz.at:con2425/con2425_g26.git
