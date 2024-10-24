@@ -16,7 +16,7 @@
 \begin{document}
 
 \author{Konstantin Krasser}
-\title{DUA: Assignment 1}
+\title{DUA: Praesenzaufgaben Blatt 4}
 \maketitle
 
 \medskip
@@ -34,6 +34,10 @@ Example: In the array $A=[6,7,2,9,3,1,0]$, the 4th smallest element is the numbe
 	      What would a naive approach, using comparison-based search algorithms, look like to find the $k$-th smallest element in $A$? What is the lower asymptotic bound on the runtime of this approach?
 
 	      The naive approach would be to sort the array and then return the $k$-th element. The time complexity for comparison-based sorting algorithms is:
+	      \begin{enumerate}
+		      \item Sort $A$
+		      \item Return $A[-1]$
+	      \end{enumerate}
 	      \begin{equation}
 		      O(n \log n)
 	      \end{equation}
@@ -56,6 +60,8 @@ Example: In the array $A=[6,7,2,9,3,1,0]$, the 4th smallest element is the numbe
 		      \item $i \leftarrow i+1$
 		      \item \textbf{return} $(\mathcal{A}, i)$
 	      \end{enumerate}
+
+	      \pagebreak
 
 	\item Answer to question 3:
 
