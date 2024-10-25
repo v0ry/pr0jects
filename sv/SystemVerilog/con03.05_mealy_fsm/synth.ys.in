@@ -1,0 +1,11 @@
+read_verilog -sv -lib @LIBSOURCE@
+read_verilog -sv mealy.sv
+
+synth
+dfflibmap -liberty @LIBFILE@
+abc -liberty @LIBFILE@
+opt_clean
+
+stat -liberty @LIBFILE@
+
+write_verilog @SYNTHSOURCE@

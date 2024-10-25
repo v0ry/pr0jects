@@ -1,0 +1,23 @@
+-v /Users/koka/GitHUB/sv/con2425_g26/task-3/ips/cpu_package.sv
++incdir+/Users/koka/GitHUB/sv/con2425_g26/How to write an FSM in System Verilog
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-0
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/tb
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/testbench
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/ips
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/testbed
++incdir+/Users/koka/GitHUB/sv/con2425_g26/How to write an FSM in System Verilog
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-0
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/tb
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/testbench
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/ips
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/testbed

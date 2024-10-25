@@ -1,0 +1,674 @@
+$date
+	Sun Nov  8 12:07:18 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var integer 32 # it [31:0] $end
+$scope module riscv_i $end
+$var wire 1 ! clk_i $end
+$var wire 1 " reset_i $end
+$var wire 32 $ stdin_rdata [31:0] $end
+$var wire 32 % mem_instr_rdata [31:0] $end
+$var wire 32 & mem_data_rdata [31:0] $end
+$var wire 32 ' instr_addr [31:0] $end
+$var wire 1 ( data_we $end
+$var wire 32 ) data_wdata [31:0] $end
+$var wire 32 * data_addr [31:0] $end
+$var reg 32 + data_rdata [31:0] $end
+$var reg 1 , instr_mem_sel $end
+$var reg 32 - instr_rdata [31:0] $end
+$var reg 1 . mem_sel $end
+$var reg 1 / mem_we $end
+$var reg 1 0 stdin_sel $end
+$var reg 1 1 stdin_we $end
+$var reg 1 2 stdout_sel $end
+$var reg 1 3 stdout_we $end
+$scope module cpu_i $end
+$var wire 1 ! clk_i $end
+$var wire 32 4 cpu_data_rdata_i [31:0] $end
+$var wire 32 5 cpu_instr_rdata_i [31:0] $end
+$var wire 1 " reset_i $end
+$var wire 32 6 u_imm [31:0] $end
+$var wire 32 7 s_imm [31:0] $end
+$var wire 5 8 rs2 [4:0] $end
+$var wire 5 9 rs1 [4:0] $end
+$var wire 5 : rd [4:0] $end
+$var wire 7 ; opcode [6:0] $end
+$var wire 64 < mul_result [63:0] $end
+$var wire 1 = mul_finished $end
+$var wire 32 > j_imm [31:0] $end
+$var wire 32 ? i_imm [31:0] $end
+$var wire 7 @ funct7 [6:0] $end
+$var wire 3 A funct3 [2:0] $end
+$var wire 12 B funct12 [11:0] $end
+$var wire 32 C b_imm [31:0] $end
+$var reg 32 D IR_n [31:0] $end
+$var reg 32 E IR_p [31:0] $end
+$var reg 32 F PC_n [31:0] $end
+$var reg 32 G PC_p [31:0] $end
+$var reg 32 H cpu_data_addr_o [31:0] $end
+$var reg 32 I cpu_data_wdata_o [31:0] $end
+$var reg 1 ( cpu_data_we_o $end
+$var reg 32 J cpu_instr_addr_o [31:0] $end
+$var reg 32 K mul_a_n [31:0] $end
+$var reg 32 L mul_a_p [31:0] $end
+$var reg 32 M mul_b_n [31:0] $end
+$var reg 32 N mul_b_p [31:0] $end
+$var reg 43 O mul_fuse_n [42:0] $end
+$var reg 43 P mul_fuse_p [42:0] $end
+$var reg 1 Q mul_reset_n $end
+$var reg 1 R mul_reset_p $end
+$var reg 1 S mul_start_n $end
+$var reg 1 T mul_start_p $end
+$var reg 5 U state_n [4:0] $end
+$var reg 5 V state_p [4:0] $end
+$var integer 32 W i [31:0] $end
+$scope module mul $end
+$var wire 32 X a_i [31:0] $end
+$var wire 32 Y b_i [31:0] $end
+$var wire 1 ! clk_i $end
+$var wire 64 Z result_o [63:0] $end
+$var wire 1 [ rst_i $end
+$var wire 1 T start_i $end
+$var reg 5 \ counter_n [4:0] $end
+$var reg 5 ] counter_p [4:0] $end
+$var reg 1 = finished_o $end
+$var reg 64 ^ result_n [63:0] $end
+$var reg 64 _ result_p [63:0] $end
+$var reg 2 ` state_n [1:0] $end
+$var reg 2 a state_p [1:0] $end
+$upscope $end
+$upscope $end
+$scope module mem_i $end
+$var wire 1 ! clk_i $end
+$var wire 32 b mem_data_addr_i [31:0] $end
+$var wire 32 c mem_data_wdata_i [31:0] $end
+$var wire 32 d mem_instr_addr_i [31:0] $end
+$var wire 1 / write_i $end
+$var wire 32 e mem_instr_rdata_o [31:0] $end
+$var wire 32 f mem_data_rdata_o [31:0] $end
+$var reg 1024 g hex_program [1023:0] $end
+$var integer 32 h fd [31:0] $end
+$var integer 32 i i [31:0] $end
+$var integer 32 j initial_length [31:0] $end
+$var integer 32 k ret [31:0] $end
+$upscope $end
+$scope module stdin_i $end
+$var wire 1 ! clk_i $end
+$var wire 32 l dout_o [31:0] $end
+$var wire 1 m read_i $end
+$var reg 8 n stdin_pointer [7:0] $end
+$var integer 32 o fd [31:0] $end
+$var integer 32 p i [31:0] $end
+$var integer 32 q ret [31:0] $end
+$upscope $end
+$scope module stdout_i $end
+$var wire 1 ! clk_i $end
+$var wire 32 r din_i [31:0] $end
+$var wire 1 3 write_i $end
+$var integer 32 s std_out_handle [31:0] $end
+$upscope $end
+$upscope $end
+$scope task dump_memory $end
+$var reg 32 t end_addr [31:0] $end
+$var integer 32 u i [31:0] $end
+$var integer 32 v j [31:0] $end
+$upscope $end
+$scope task print_argregs $end
+$upscope $end
+$scope task print_decode $end
+$upscope $end
+$scope task print_immediates $end
+$upscope $end
+$scope task print_opcodes $end
+$upscope $end
+$scope task print_registers $end
+$upscope $end
+$scope task print_state_name $end
+$var reg 5 w state_code [4:0] $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 x \X_p[0] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 y \X_p[1] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 z \X_p[2] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 { \X_p[3] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 | \X_p[4] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 } \X_p[5] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 ~ \X_p[6] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 !" \X_p[7] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 "" \X_p[8] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 #" \X_p[9] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 $" \X_p[10] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 %" \X_p[11] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 &" \X_p[12] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 '" \X_p[13] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 (" \X_p[14] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 )" \X_p[15] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 *" \X_p[16] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 +" \X_p[17] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 ," \X_p[18] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 -" \X_p[19] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 ." \X_p[20] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 /" \X_p[21] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 0" \X_p[22] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 1" \X_p[23] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 2" \X_p[24] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 3" \X_p[25] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 4" \X_p[26] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 5" \X_p[27] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 6" \X_p[28] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 7" \X_p[29] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 8" \X_p[30] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module riscv_i $end
+$scope module cpu_i $end
+$var reg 32 9" \X_p[31] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 9"
+b0 8"
+b0 7"
+b0 6"
+b0 5"
+b0 4"
+b0 3"
+b0 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ."
+b0 -"
+b0 ,"
+b0 +"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b0 &"
+b0 %"
+b0 $"
+b0 #"
+b0 ""
+b0 !"
+b0 ~
+b0 }
+b0 |
+b0 {
+b0 z
+b0 y
+b0 x
+bx w
+bx v
+bx u
+bx t
+b10000000000000000000000000000011 s
+b0 r
+b1 q
+b10000 p
+b0 o
+b0 n
+0m
+b0 l
+b0 k
+b0 j
+b1 i
+b10000000000000000000000000000011 h
+b101110001011100010111101110100011001010111001101110100011000110110000101110011011001010111001100101111011000110110111101101101011100000110110001100101011110000010110101101101011101010110110000101110011000010111001101101101 g
+bx f
+bx e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+1[
+b0 Z
+b0 Y
+b0 X
+b100000 W
+b0 V
+b1 U
+0T
+0S
+0R
+0Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+bx D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+0=
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+bx 5
+bx 4
+03
+02
+01
+00
+0/
+1.
+bx -
+1,
+bx +
+b0 *
+b0 )
+0(
+b0 '
+bx &
+bx %
+b0 $
+b100000 #
+1"
+0!
+$end
+#10
+b0 9"
+b0 8"
+b0 7"
+b0 6"
+b0 5"
+b0 4"
+b0 3"
+b0 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ."
+b0 -"
+b0 ,"
+b0 +"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b0 &"
+b0 %"
+b0 $"
+b0 #"
+b0 ""
+b0 !"
+b0 ~
+b0 }
+b0 |
+b0 {
+b0 z
+b0 y
+b0 x
+b1 U
+bx D
+b100000 W
+b0 u
+b10000 v
+b0 t
+1!
+#12
+b0 w
+#20
+0[
+0"
+0!
+#30
+bx ;
+bx A
+bx @
+bx B
+bx :
+bx 9
+bx 8
+bx ?
+bx 7
+bx0 C
+bx000000000000 6
+bx0 >
+b100 F
+b0 9"
+b0 8"
+b0 7"
+b0 6"
+b0 5"
+b0 4"
+b0 3"
+b0 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ."
+b0 -"
+b0 ,"
+b0 +"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b0 &"
+b0 %"
+b0 $"
+b0 #"
+b0 ""
+b0 !"
+b0 ~
+b0 }
+b0 |
+b0 {
+b0 z
+b0 y
+b0 x
+bx E
+b1 V
+b11111 U
+bx D
+b100000 W
+1!
+#32
+b1 w
+#40
+0!
+#50
+b100 '
+b100 J
+b100 d
+b0 9"
+b0 8"
+b0 7"
+b0 6"
+b0 5"
+b0 4"
+b0 3"
+b0 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ."
+b0 -"
+b0 ,"
+b0 +"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b0 &"
+b0 %"
+b0 $"
+b0 #"
+b0 ""
+b0 !"
+b0 ~
+b0 }
+b0 |
+b0 {
+b0 z
+b0 y
+b0 x
+b100 G
+b11111 V
+b10 U
+b100 F
+b100000 W
+1!
+#52
+b11111 w
+#60
+0!
+#70
+b0 9"
+b0 8"
+b0 7"
+b0 6"
+b0 5"
+b0 4"
+b0 3"
+b0 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ."
+b0 -"
+b0 ,"
+b0 +"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b0 &"
+b0 %"
+b0 $"
+b0 #"
+b0 ""
+b0 !"
+b0 ~
+b0 }
+b0 |
+b0 {
+b0 z
+b0 y
+b0 x
+b10 V
+b10 U
+b100000 W
+1!
+#72
+b10 w
+#80
+b10000 v
+0!

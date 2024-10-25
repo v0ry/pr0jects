@@ -1,3 +1,9 @@
 [submodule "con2425_g26"]
 	path = con2425_g26
 	url = git@git.teaching.iaik.tugraz.at:con2425/con2425_g26.git
+[submodule "oop1ws24_a0_64"]
+	path = oop1ws24_a0_64
+	url = git@gitlab.tugraz.at:oop1_ws/ws2024/A0/oop1ws24_a0_64.git
+[submodule "c/espws24-a1-238"]
+	path = c/espws24-a1-238
+	url = git@gitlab.tugraz.at:esp-ws2024/students/espws24-a1-238.git

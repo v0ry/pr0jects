@@ -1,0 +1,44 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Sep 25 15:06:51 2024
+[*]
+[dumpfile] "/home/mwaser/Teaching/CON/practicals/2024/assignments/task-1/calculator.vcd"
+[dumpfile_mtime] "Wed Sep 25 15:01:46 2024"
+[dumpfile_size] 3152
+[savefile] "/home/mwaser/Teaching/CON/practicals/2024/assignments/task-1/trace_view.gtkw"
+[timestart] 0
+[size] 2287 1358
+[pos] 964 294
+*-5.125389 24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] calc_tb.
+[sst_width] 233
+[signals_width] 312
+[sst_expanded] 1
+[sst_vpaned_height] 408
+@200
+-Testbench Signals
+@28
+[color] 2
+calc_tb.clk
+[color] 2
+calc_tb.reset
+@420
+[color] 2
+calc_tb.ticks
+@22
+[color] 2
+calc_tb.calc_inp_a[4:0]
+[color] 2
+calc_tb.calc_inp_b[4:0]
+@28
+[color] 2
+calc_tb.calc_inp_v
+[color] 2
+calc_tb.calc_calc
+[color] 2
+calc_tb.calc_mode
+@22
+[color] 2
+calc_tb.calc_result[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,51 @@
+# Read source files
+read -incdir ../ips
+read -sv2012 ../ips/cpu.sv
+read -sv2012 ../ips/multiplier.sv
+read_verilog -lib ../lib/cmos_cells.v
+
+# Partial Synthesis
+
+# begin:
+hierarchy -check -top cpu;
+
+# coarse:
+proc;
+opt_expr;
+opt_clean;
+check;
+opt -nodffe -nosdff;
+opt;
+wreduce;
+peepopt;
+opt_clean;
+alumacc;
+share;
+opt;
+memory -nomap;
+opt_clean;
+
+# fine:
+opt -fast -full;
+memory_map;
+opt -full;
+# techmap; # hangs and needs 9GB RAM
+opt -fast;
+
+# check:
+hierarchy -check;
+stat;
+check;
+
+dfflibmap -liberty ../lib/cmos_cells.lib;
+abc -liberty ../lib/cmos_cells.lib;
+opt_clean;
+
+# Save netlist
+write_verilog -noattr _sim/micro_riscv_synthesized.v;
+
+# generate dot representation
+show -format dot -prefix _sim/micro_riscv_synth;
+
+# Print generic area information
+tee -o _sim/micro_riscv.stats stat -liberty ../lib/cmos_cells.lib;

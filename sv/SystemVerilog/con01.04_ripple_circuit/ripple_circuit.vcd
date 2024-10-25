@@ -1,0 +1,43 @@
+$date
+	Wed Oct 16 18:41:24 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! out_q2 $end
+$var wire 1 " out_q1 $end
+$var reg 32 # in_a [31:0] $end
+$var reg 32 $ in_b [31:0] $end
+$scope module circ $end
+$var wire 32 % in_a [31:0] $end
+$var wire 32 & in_b [31:0] $end
+$var reg 1 ' _sv2v_0 $end
+$var reg 1 " out_q1 $end
+$var reg 1 ! out_q2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0'
+b1111011111011010 &
+b1111111111111111 %
+b1111011111011010 $
+b1111111111111111 #
+1"
+0!
+$end
+#500
+1"
+b11 $
+b11 &
+b1 #
+b1 %
+#1000
