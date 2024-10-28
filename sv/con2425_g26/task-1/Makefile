@@ -8,6 +8,7 @@ TESTS ?= $(wildcard $(TESTDIR)*.testvec)
 
 SIMDIRNAME ?= _sim/
 SYNTHDIRNAME ?= _synth/
+# SIMDIR ?= /Users/koka/GitHUB/sv/con2425_g26/task-1/_sim/
 SIMDIR ?= $(MAKEFILEDIR)$(SIMDIRNAME)
 SYNTHDIR ?= $(MAKEFILEDIR)$(SYNTHDIRNAME)
 

@@ -6,15 +6,26 @@ module addsub (
     output logic [4:0] result_o
     );
 
-    // add your implementation here
-    // use the mode_i signal to select between addition and subtraction
-    // use two's complement for subtraction
-    // start simple by doing addition with one bit only
-    always_comb begin
-        if (mode_i == 1'b0) begin
-            result_o = a_i + b_i;
-        end else begin
-            result_o = a_i - b_i;
+    // Wires for inverted b_i and carry chain
+    logic [4:0] b_mux;
+    logic [5:0] c; // Carry chain, including carry-in and carry-out
+
+    assign c[0] = mode_i; // Carry-in is mode_i (0 for addition, 1 for subtraction)
+
+    // Invert b_i if mode_i is 1 (subtraction)
+    assign b_mux = b_i ^ {5{mode_i}};
+
+    // Instantiate five full adders for 5-bit operation
+    genvar i;
+    generate
+        for (i = 0; i < 5; i = i + 1) begin : FA_CHAIN
+            fulladder FA (
+                .a_i   (a_i[i]),
+                .b_i   (b_mux[i]),
+                .c_i   (c[i]),
+                .sum_o (result_o[i]),
+                .c_o   (c[i+1])
+            );
         end
-    end
+    endgenerate
 endmodule
