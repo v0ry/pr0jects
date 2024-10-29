@@ -1,0 +1,54 @@
+-v /Users/koka/GitHUB/sv/con2425_g26/task-3/ips/cpu_package.sv
+-v /Users/koka/GitHUB/sv/SystemVerilog/common/micro-riscv/ips/cpu_package.sv
++incdir+/Users/koka/GitHUB/sv/con2425_g26/How to write an FSM in System Verilog
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-0
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/tb
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/testbench
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/ips
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/testbed
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/common
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/common/micro-riscv/ips
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/common/micro-riscv
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con01.02_simple_circuit
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con01.03_simple_circuit_with_mux
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con01.04_ripple_circuit
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con02.02_4bit_adder
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.02_add_sub_machine
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.03_blocking_vs_nonblocking
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.04_moore_fsm
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.05_mealy_fsm
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.06_asm_generic_example
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.07_asm_generic_example_with_separate_datapath
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.08_stopwatch
++incdir+/Users/koka/GitHUB/sv/con2425_g26/How to write an FSM in System Verilog
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-0
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-1/tb
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/src
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-2/testbench
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/ips
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/lib
++incdir+/Users/koka/GitHUB/sv/con2425_g26/task-3/testbed
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/common
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/common/micro-riscv/ips
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/common/micro-riscv
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con01.02_simple_circuit
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con01.03_simple_circuit_with_mux
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con01.04_ripple_circuit
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con02.02_4bit_adder
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.02_add_sub_machine
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.03_blocking_vs_nonblocking
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.04_moore_fsm
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.05_mealy_fsm
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.06_asm_generic_example
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.07_asm_generic_example_with_separate_datapath
++incdir+/Users/koka/GitHUB/sv/SystemVerilog/con03.08_stopwatch

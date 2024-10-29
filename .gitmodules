@@ -1,5 +1,5 @@
 [submodule "con2425_g26"]
-	path = con2425_g26
+	path = sv/con2425_g26
 	url = git@git.teaching.iaik.tugraz.at:con2425/con2425_g26.git
 [submodule "oop1ws24_a0_64"]
 	path = oop1ws24_a0_64

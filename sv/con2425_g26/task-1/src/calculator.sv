@@ -14,7 +14,6 @@ module calculator (
     );
 
     // add your implementation here
-    // State definitions
     typedef enum logic [1:0] {
         LOAD_A,
         LOAD_B,
@@ -23,10 +22,8 @@ module calculator (
 
     state_t state, next_state;
 
-    // Registers to store operands
     logic [4:0] reg_a, reg_b;
 
-    // Instantiate the Add-Sub-Machine
     addsub addsub_inst (
         .a_i      (reg_a),
         .b_i      (reg_b),
@@ -34,7 +31,6 @@ module calculator (
         .result_o (result_o)
     );
 
-    // Next state logic
     always_comb begin
         case (state)
             LOAD_A: begin
@@ -59,7 +55,6 @@ module calculator (
         endcase
     end
 
-    // Sequential logic for state transitions and operand storage
     always_ff @(posedge clk_i or posedge rst_i) begin
         if (rst_i) begin
             state <= LOAD_A;
@@ -83,7 +78,6 @@ module calculator (
                             reg_b <= b_i;
                     end
                     CALC: begin
-                        // No action required
                     end
                     default: ;
                 endcase
@@ -91,6 +85,5 @@ module calculator (
         end
     end
 
-    // Output valid signal is high only in CALC state
     assign output_valid_o = (state == CALC);
 endmodule
