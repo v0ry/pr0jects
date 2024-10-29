@@ -1,0 +1,19 @@
+# Read the design files from the src directory
+read_verilog -sv fulladder.sv
+read_verilog -sv addsub.sv
+read_verilog -sv calculator.sv
+
+# Set the top module
+hierarchy -top calculator
+
+# Perform synthesis
+proc; flatten; opt; techmap; opt;
+
+# Display design statistics
+stat
+
+# Optionally write the synthesized netlist to a file
+write_verilog synthesized_calculator.v
+
+# Generate a graphical representation of the netlist
+show -format svg -prefix calculator_netlist

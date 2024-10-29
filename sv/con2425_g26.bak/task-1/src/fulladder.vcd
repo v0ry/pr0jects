@@ -1,0 +1,63 @@
+$date
+	Sun Oct 27 20:47:27 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! sum_o $end
+$var wire 1 " c_o $end
+$var reg 1 # a_i $end
+$var reg 1 $ b_i $end
+$var reg 1 % c_i $end
+$scope module uut $end
+$var wire 1 # a_i $end
+$var wire 1 $ b_i $end
+$var wire 1 % c_i $end
+$var wire 1 " c_o $end
+$var wire 1 ! sum_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#2
+1!
+1#
+#4
+1$
+0#
+#6
+1"
+0!
+1#
+#8
+0"
+1!
+1%
+0$
+0#
+#10
+0!
+1"
+1#
+#12
+1"
+1$
+0#
+#14
+1!
+1#
+#16

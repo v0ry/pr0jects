@@ -1,0 +1,22 @@
+# Read source files
+read -incdir ips
+read -sv2012 _synth/micro_riscv.v
+read_verilog -lib lib/cmos_cells.v
+
+# Set top module
+hierarchy -check -top micro_riscv;
+
+# Synthesis
+synth;
+dfflibmap -liberty lib/cmos_cells.lib;
+abc -liberty lib/cmos_cells.lib;
+opt_clean;
+
+# Save netlist
+write_verilog -noattr _synth/micro_riscv_synthesized.v;
+
+# generate dot representation
+show -format dot -prefix _synth/micro_riscv_synth;
+
+# Print generic area information
+tee -o _synth/micro_riscv.stats stat -liberty lib/cmos_cells.lib;

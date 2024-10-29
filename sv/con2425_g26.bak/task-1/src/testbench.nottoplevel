@@ -1,0 +1,79 @@
+`ifndef SYNTHESIS
+module testbench();
+  // Wires for inputs to the module
+  logic a_i, b_i, c_i;
+
+  // Wires for the outputs of the module
+  logic sum_o, c_o;
+
+  // Instantiate the fulladder and connect the logic elements to it
+  fulladder uut (
+    .a_i   (a_i),
+    .b_i   (b_i),
+    .c_i   (c_i),
+    .sum_o (sum_o),
+    .c_o   (c_o)
+  );
+
+  // Create dump file for waveform viewing
+  initial begin
+    $dumpfile("fulladder.vcd");
+    $dumpvars(0, testbench);
+  end
+
+  // Testbench stimuli
+  initial begin
+    // Testcase 1
+    a_i = 0; b_i = 0; c_i = 0;
+    #1;
+    $display("[Time: %04t, TESTCASE 1] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 2
+    a_i = 1; b_i = 0; c_i = 0;
+    #1;
+    $display("[Time: %04t, TESTCASE 2] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 3
+    a_i = 0; b_i = 1; c_i = 0;
+    #1;
+    $display("[Time: %04t, TESTCASE 3] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 4
+    a_i = 1; b_i = 1; c_i = 0;
+    #1;
+    $display("[Time: %04t, TESTCASE 4] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 5
+    a_i = 0; b_i = 0; c_i = 1;
+    #1;
+    $display("[Time: %04t, TESTCASE 5] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 6
+    a_i = 1; b_i = 0; c_i = 1;
+    #1;
+    $display("[Time: %04t, TESTCASE 6] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 7
+    a_i = 0; b_i = 1; c_i = 1;
+    #1;
+    $display("[Time: %04t, TESTCASE 7] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    // Testcase 8
+    a_i = 1; b_i = 1; c_i = 1;
+    #1;
+    $display("[Time: %04t, TESTCASE 8] a_i = %d, b_i = %d, c_i = %d => sum_o = %d, c_o = %d", $time, a_i, b_i, c_i, sum_o, c_o);
+    #1;
+
+    $finish;
+  end
+
+endmodule
+`endif
+
