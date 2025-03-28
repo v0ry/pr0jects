@@ -1,4 +1,5 @@
-MAKEFILEDIR ?= $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
+# update makefile for macos
+MAKEFILEDIR ?= $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 RTLSOURCES ?= $(wildcard $(MAKEFILEDIR)/tb/*.sv) $(wildcard $(MAKEFILEDIR)/src/*.sv)
 LINTSOURCES ?= $(wildcard $(MAKEFILEDIR)/src/*.sv)

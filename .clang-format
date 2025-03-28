@@ -1,0 +1,3 @@
+BasedOnStyle: Google  # or any style you prefer as a base
+BreakBeforeBraces: Allman  # Ensures braces are placed on the next line
+Language: Cpp  # Apply to C/C++ code

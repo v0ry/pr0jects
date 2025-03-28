@@ -1,0 +1,85 @@
+\documentclass{article}%
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+%-------------------------------------------
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\setlength{\textwidth}{7.0in}
+\setlength{\oddsidemargin}{-0.35in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{9.0in}
+\setlength{\parindent}{0.3in}
+\begin{document}
+
+\begin{flushright}
+	\textbf{Jane Doe \\
+		MONTH DAY, 2017}
+\end{flushright}
+
+\begin{center}
+	\textbf{CS 405: Algorithm Analysis II \\
+		Homework NUM: TITLE} \\
+\end{center}
+
+Each of the exercises below involves a choice among the master theorem templates discussed in lecture.
+For each, indicate which case applies and specify the asymptotic growth class of the function.  If no
+case applies, simply state that fact; you are not required to attempt a solution when no master theorem case
+applies.
+
+\begin{enumerate}
+	\item $T(n) = 2 T(\lfloor n/4 \rfloor) + n^{1/2}$.
+	\item $T(n) = 3 T(\lfloor n/2 \rfloor) + n \lg n$.
+	\item $T(n) = 5 T(\lfloor n/5 \rfloor) + \frac{n}{\lg n}$.
+	\item $T(n) = 4 T(\lfloor n/2 \rfloor) + n^2 \sqrt{n}$.
+	\item $T(n) = 2 T(\lfloor n/2 \rfloor) + n \lg n$.
+\end{enumerate}
+
+\section*{Solutions.}
+$a = 3, b = 2$ implies a reference function $g(n) = n^{\log_2 3}$. Converting as follows,
+\begin{eqnarray*}
+	y & = & \log_2 3 \\
+	2^y & = & 3 \\
+	y \ln 2 & = & \ln 3 \\
+	y & = & \frac{\ln 3}{\ln 2} = 1.585,
+\end{eqnarray*}
+we have $g(n) = n^{1.585}$.  The ``glue'' function is $f(n) = n \lg n$.  Let $g_\epsilon (n) = n^{1.585 - \epsilon}$, for
+$0 < \epsilon < 0.5$. Since
+\begin{eqnarray*}
+	\frac{f(n)}{g_\epsilon (n)} & = & \frac{n \lg n}{n^{1.585 - \epsilon}} = \frac{\lg n}{n^{0.585 - \epsilon}} \\
+	& \leq & \frac{\lg n}{n^{0.085}} \rightarrow 0
+\end{eqnarray*}
+as $n \rightarrow \infty$, we have $f(n) = o(g_\epsilon (n))$, which implies $f(n) = O(g_\epsilon (n))$ and allows case (1) of the
+master template.  Therefore $T(n) = \Theta(g(n)) = \Theta(n^{1.585})$.
+
+\vspace*{0.5in}
+\noindent Answers to incidental LaTeX question may be found at:
+\begin{verbatim}
+http://www.tug.org/begin.html
+\end{verbatim}
+
+\newpage
+NEW PAGE!!!
+
+\end{document}

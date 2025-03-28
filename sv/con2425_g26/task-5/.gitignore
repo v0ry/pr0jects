@@ -1,6 +1,0 @@
-.vscode/**
-framework/*.a
-__test/*
-test_output/*
-quib
-
